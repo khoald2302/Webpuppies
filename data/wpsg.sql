@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 20, 2016 at 10:03 AM
+-- Generation Time: Apr 20, 2016 at 10:23 AM
 -- Server version: 5.6.26
 -- PHP Version: 5.6.12
 
@@ -97,15 +97,15 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
   `option_name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `option_value` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
   `autoload` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'yes'
-) ENGINE=InnoDB AUTO_INCREMENT=132 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=134 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `wp_options`
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://localhost/WEbpuppies/wpsg.dev', 'yes'),
-(2, 'home', 'http://localhost/WEbpuppies/wpsg.dev', 'yes'),
+(1, 'siteurl', 'http://localhost/webpuppies/wpsg.dev', 'yes'),
+(2, 'home', 'http://localhost/webpuppies/wpsg.dev', 'yes'),
 (3, 'blogname', 'WebPuppies', 'yes'),
 (4, 'blogdescription', 'Just another WordPress site', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
@@ -234,7 +234,9 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (128, '_transient_timeout_plugin_slugs', '1461225771', 'no'),
 (129, '_transient_plugin_slugs', 'a:1:{i:0;s:19:"akismet/akismet.php";}', 'no'),
 (130, '_transient_timeout_dash_88ae138922fe95674369b1cb3d215a2b', '1461182571', 'no'),
-(131, '_transient_dash_88ae138922fe95674369b1cb3d215a2b', '<div class="rss-widget"><ul><li><a class=''rsswidget'' href=''https://wordpress.org/news/2016/04/coleman/''>WordPress 4.5 “Coleman”</a> <span class="rss-date">April 12, 2016</span><div class="rssSummary">Version 4.5 of WordPress, named “Coleman” in honor of jazz saxophonist Coleman Hawkins, is available for download or update in your WordPress dashboard. New features in 4.5 help streamline your workflow, whether you’re writing or building your site. Editing Improvements Inline Linking Stay focused on your writing with a less distracting interface that keeps you in [&hellip;]</div></li></ul></div><div class="rss-widget"><ul><li><a class=''rsswidget'' href=''http://wptavern.com/the-quest-for-a-centralized-wordpress-notifications-center''>WPTavern: The Quest For a Centralized WordPress Notifications Center</a></li><li><a class=''rsswidget'' href=''http://wptavern.com/developers-urge-white-house-to-consider-open-by-default-for-new-open-source-software-policy''>WPTavern: Developers Urge White House to Consider “Open by Default” for New Open Source Software Policy</a></li><li><a class=''rsswidget'' href=''http://wptavern.com/linus-torvalds-explains-how-open-source-led-to-the-success-of-linux''>WPTavern: Linus Torvalds Explains How Open Source Led to the Success of Linux</a></li></ul></div><div class="rss-widget"><ul><li class="dashboard-news-plugin"><span>Popular Plugin:</span> Page Builder by SiteOrigin&nbsp;<a href="plugin-install.php?tab=plugin-information&amp;plugin=siteorigin-panels&amp;_wpnonce=4fc7d62137&amp;TB_iframe=true&amp;width=600&amp;height=800" class="thickbox open-plugin-details-modal" aria-label="Install Page Builder by SiteOrigin">(Install)</a></li></ul></div>', 'no');
+(131, '_transient_dash_88ae138922fe95674369b1cb3d215a2b', '<div class="rss-widget"><ul><li><a class=''rsswidget'' href=''https://wordpress.org/news/2016/04/coleman/''>WordPress 4.5 “Coleman”</a> <span class="rss-date">April 12, 2016</span><div class="rssSummary">Version 4.5 of WordPress, named “Coleman” in honor of jazz saxophonist Coleman Hawkins, is available for download or update in your WordPress dashboard. New features in 4.5 help streamline your workflow, whether you’re writing or building your site. Editing Improvements Inline Linking Stay focused on your writing with a less distracting interface that keeps you in [&hellip;]</div></li></ul></div><div class="rss-widget"><ul><li><a class=''rsswidget'' href=''http://wptavern.com/the-quest-for-a-centralized-wordpress-notifications-center''>WPTavern: The Quest For a Centralized WordPress Notifications Center</a></li><li><a class=''rsswidget'' href=''http://wptavern.com/developers-urge-white-house-to-consider-open-by-default-for-new-open-source-software-policy''>WPTavern: Developers Urge White House to Consider “Open by Default” for New Open Source Software Policy</a></li><li><a class=''rsswidget'' href=''http://wptavern.com/linus-torvalds-explains-how-open-source-led-to-the-success-of-linux''>WPTavern: Linus Torvalds Explains How Open Source Led to the Success of Linux</a></li></ul></div><div class="rss-widget"><ul><li class="dashboard-news-plugin"><span>Popular Plugin:</span> Page Builder by SiteOrigin&nbsp;<a href="plugin-install.php?tab=plugin-information&amp;plugin=siteorigin-panels&amp;_wpnonce=4fc7d62137&amp;TB_iframe=true&amp;width=600&amp;height=800" class="thickbox open-plugin-details-modal" aria-label="Install Page Builder by SiteOrigin">(Install)</a></li></ul></div>', 'no'),
+(132, '_transient_is_multi_author', '0', 'yes'),
+(133, '_transient_twentysixteen_categories', '1', 'yes');
 
 -- --------------------------------------------------------
 
@@ -293,9 +295,9 @@ CREATE TABLE IF NOT EXISTS `wp_posts` (
 --
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
-(1, 1, '2016-04-20 08:02:37', '2016-04-20 08:02:37', 'Welcome to WordPress. This is your first post. Edit or delete it, then start writing!', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2016-04-20 08:02:37', '2016-04-20 08:02:37', '', 0, 'http://localhost/WEbpuppies/wpsg.dev/?p=1', 0, 'post', '', 1),
-(2, 1, '2016-04-20 08:02:37', '2016-04-20 08:02:37', 'This is an example page. It''s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\r\n\r\n<blockquote>Hi there! I''m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin'' caught in the rain.)</blockquote>\r\n\r\n...or something like this:\r\n\r\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\r\n\r\nAs a new WordPress user, you should go to <a href="http://localhost/WEbpuppies/wpsg.dev/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!', 'Sample Page', '', 'publish', 'closed', 'open', '', 'sample-page', '', '', '2016-04-20 08:02:37', '2016-04-20 08:02:37', '', 0, 'http://localhost/WEbpuppies/wpsg.dev/?page_id=2', 0, 'page', '', 0),
-(3, 1, '2016-04-20 08:02:43', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2016-04-20 08:02:43', '0000-00-00 00:00:00', '', 0, 'http://localhost/WEbpuppies/wpsg.dev/?p=3', 0, 'post', '', 0);
+(1, 1, '2016-04-20 08:02:37', '2016-04-20 08:02:37', 'Welcome to WordPress. This is your first post. Edit or delete it, then start writing!', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2016-04-20 08:02:37', '2016-04-20 08:02:37', '', 0, 'http://localhost/webpuppies/wpsg.dev/?p=1', 0, 'post', '', 1),
+(2, 1, '2016-04-20 08:02:37', '2016-04-20 08:02:37', 'This is an example page. It''s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\r\n\r\n<blockquote>Hi there! I''m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin'' caught in the rain.)</blockquote>\r\n\r\n...or something like this:\r\n\r\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\r\n\r\nAs a new WordPress user, you should go to <a href="http://localhost/webpuppies/wpsg.dev/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!', 'Sample Page', '', 'publish', 'closed', 'open', '', 'sample-page', '', '', '2016-04-20 08:02:37', '2016-04-20 08:02:37', '', 0, 'http://localhost/webpuppies/wpsg.dev/?page_id=2', 0, 'page', '', 0),
+(3, 1, '2016-04-20 08:02:43', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2016-04-20 08:02:43', '0000-00-00 00:00:00', '', 0, 'http://localhost/webpuppies/wpsg.dev/?p=3', 0, 'post', '', 0);
 
 -- --------------------------------------------------------
 
@@ -557,7 +559,7 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=132;
+  MODIFY `option_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=134;
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
