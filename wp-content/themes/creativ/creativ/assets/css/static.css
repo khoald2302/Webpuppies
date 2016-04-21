@@ -195,7 +195,11 @@ body.fixed-margin-top {
   background-color: #fff; }
 
 .vc_general.vc_btn3.btn, button.vc_general.vc_btn3, a.vc_general.vc_btn3, .btn, .button, input[type='submit'] {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: transparent;
+>>>>>>> 37fd18856f05bedd2671de60bf427a5a8e123ab0
   background-color: #e66202;
   -webkit-border-radius: 5px;
   -khtml-border-radius: 5px;
@@ -210,19 +214,19 @@ body.fixed-margin-top {
   background-color: #fc0; }
 
 .vc_general.vc_btn3.btn.btn-primary, .btn.btn-primary {
-  color: #fff;
-  background-color: #03acdc;
-  -webkit-border-radius: 0;
-  -khtml-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0;
+  color: transparent;
+  background-color: #e66202;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
   /*Add 22/10/2015 Mixin BACKGROUND GRADIENT FOR COLOR */ }
 
 .vc_general.vc_btn3.btn.btn-primary:hover, .btn.btn-primary:hover, .vc_general.vc_btn3.btn.btn-primary:focus {
-  color: #fff;
-  background-color: #282828; }
+  color: #333;
+  background-color: #fc0; }
 
 .btn, button, .button, a.vc_general.vc_btn3, input[type='submit'] {
   text-transform: uppercase; }
@@ -7404,10 +7408,77 @@ body .wpb_content_element, body .wpb_button {
   /*[Start] template-zo_masonry--portfolio-style-1*/ }
 
 .template-zo_masonry--portfolio-style-1 {
-  /*[End] template-zo_masonry--portfolio-style-1*/ }
+  /*[End] template-zo_masonry--portfolio-style-1*/
+  /* ==========================================================================
+   Khoa ------ Customs
+========================================================================== */ }
   @media screen and (max-width: 479px) {
       .template-zo_masonry--portfolio-style-1 .zo-masonry-item:hover .zo-masonry-overlay .zo-masonry-overlay-inner {
         left: 50% !important; } }
+
+#hero-banner-divider {
+  height: 20px; }
+
+#cta-first {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover; }
+  #cta-first #cta-easy.cta-banner-wrapper {
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    font-family: 'Bitter', serif;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4); }
+  #cta-first #cta-easy .cta-banner-parent {
+    display: table;
+    margin: 0 auto;
+    width: 720px;
+    height: 100%;
+    float: none; }
+  #cta-first #cta-easy .cta-banner-parent .cta-banner-child {
+    display: table-cell;
+    vertical-align: middle; }
+  #cta-first #cta-easy .cta-banner-parent .cta-banner-child h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #fff;
+    text-align: center; }
+  #cta-first #cta-easy .cta-banner-parent .cta-banner-child p {
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 10px; }
+  #cta-first #cta-easy .cta-banner-parent .cta-banner-child p.cta-text {
+    margin: 20px 0; }
+  #cta-first #cta-easy .cta-banner-parent .cta-banner-child a {
+    padding-bottom: 10px; }
+  #cta-first #cta-easy .cta-banner-parent .cta-banner-child a.btn {
+    font-weight: 400;
+    line-height: 1.42857;
+    text-align: center;
+    vertical-align: middle; }
+
+.text-center {
+  text-align: center; }
+
+.cta-no-shadow {
+  text-shadow: none; }
+
+.cta-btn {
+  background: #e66202;
+  font-size: 22px; }
+
+.cta-btn {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4); }
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Bitter', serif;
+  white-space: normal; }
 
 img {
   max-width: 100%; }

@@ -3318,3 +3318,101 @@
 }
 /*[End] template-zo_masonry--portfolio-style-1*/
 
+
+/* ==========================================================================
+   Khoa ------ Customs
+========================================================================== */
+
+
+// #hero-banner-divider
+
+#hero-banner-divider{
+    height: 20px;
+}
+
+
+
+
+// #cta-easy
+
+#cta-first{
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    #cta-easy{
+        &.cta-banner-wrapper{
+            width: 100%;
+            height: 400px;
+            color: #fff;
+            font-family: 'Bitter', serif;
+            text-shadow: 0 2px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
+
+
+        }
+        .cta-banner-parent {
+            display: table;
+            margin: 0 auto;
+            width: 720px;
+            height: 100%;
+
+            float: none;
+
+            .cta-banner-child{
+                display: table-cell;
+                vertical-align: middle;
+                h1{
+                    font-size: 48px; font-weight: 500;
+                    line-height: 1.1;
+                    color: #fff;
+                    text-align: center;
+
+                }
+                p{
+                    font-size: 20px;
+                    line-height: 1.7em;
+                    padding-bottom: 10px;
+                    &.cta-text{
+                        margin: 20px 0;
+                    }
+                }
+                a{
+                    padding-bottom: 10px;
+                    &.btn{
+                        font-weight: 400;
+                        line-height: 1.42857143;
+                        text-align: center;
+                        vertical-align: middle;
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.cta-no-shadow{
+    text-shadow: none;
+}
+.cta-btn {
+    background: #e66202;
+    font-size: 22px;
+}
+.cta-btn{
+    box-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Bitter', serif;
+    white-space: normal;
+}
+
