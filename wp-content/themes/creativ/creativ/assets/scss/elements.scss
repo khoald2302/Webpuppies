@@ -925,3 +925,31 @@ $message-red-light : #fff0ec;
 }
 /* prettyPhoto styling for small screens */
 
+/****************style for local home ********************/
+.cta-banner-announce .vc_row{
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1160px !important;
+
+    .cta-banner-announce-child{
+        margin: 0px auto;
+        padding: 10px;
+
+        p{
+            line-height: 1.7em;
+            padding-bottom: 10px;
+
+           
+        }
+
+        .cta-header {
+            font-size: 48px;
+        }
+
+        
+    }
+    
+
+}
+
