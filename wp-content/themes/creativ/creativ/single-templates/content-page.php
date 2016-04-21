@@ -11,7 +11,5 @@
 	<div class="entry-content">
 			<?php the_content(); ?>
 	</div><!-- .entry-content -->
-	<footer class="entry-meta">
-			<?php edit_post_link( __( 'Edit', 'creativ' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-meta -->
+
 </article><!-- #post -->
