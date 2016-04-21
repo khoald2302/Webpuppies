@@ -24,7 +24,7 @@ $class_link = 'zo-fancyboxes-' . $uqid;
             $zo_fancybox_content_color = isset($atts['zo_fancybox_content_color']) ? $atts['zo_fancybox_content_color'] : '';
 
             for ($i = 1; $i <= $columns; $i++) : ?>
-                <?php if ($i != 5):
+                <?php if ($i != 7):
                 $icon = isset($atts['icon' . $i]) ? $atts['icon' . $i] : '';
                 $content = isset($atts['description' . $i]) ? $atts['description' . $i] : '';
                 $image = isset($atts['image' . $i]) ? $atts['image' . $i] : '';
