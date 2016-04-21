@@ -1,0 +1,17 @@
+@include font-face($fontFamily: 'baron_neue_bold', $eotFileSrc: '../fonts/baron_neue_bold-webfont.eot', $woffFileSrc: '../fonts/baron_neue_bold-webfont.woff', $ttfFileSrc: '../fonts/baron_neue_bold-webfont.ttf');
+.rev_slider{
+  .tp-caption{
+    span{
+      color: $primary_color;
+    }
+    &.rev-btn{
+      @include transition(all 420ms ease 0s);
+    //  padding: 7px 35px !important;
+      border-radius: 30px;
+      &.btn-color:not(:hover){
+        background: $primary_color !important;
+        border-color: $primary_color !important;
+      }
+    }
+  }
+}

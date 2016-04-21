@@ -1,0 +1,633 @@
+/*------------------------------------------------------------------
+[All Style Sidebar Widget]
+
+    1. Widget Search
+	2. Widget Category
+	3. Widget Tags
+
+-------------------------------------------------------------------*/
+/* ==========================================================================
+   [Start] 1. Widget Search
+========================================================================== */
+.searchform,
+.woocommerce-product-search {
+    position: relative;
+    margin-bottom: 15px;
+    &:before {
+	    font-size: 14px;
+	    position: absolute;
+	    right: 10px;
+	    top: 10px;
+	    content: "\f002";
+	    font-family: FontAwesome;
+	}
+	.screen-reader-text {
+	    display: none;
+	}
+	input[type="text"],
+    input[name="s"],{
+	    width: 100%;
+	    margin: 0;
+        height: 50px;
+		line-height: 50px;
+        display: block;
+        @include border-radius(0);
+        box-sizing: border-box;
+        font-style: italic;
+        @extend .font-second;
+        padding: 0 15px;
+	}
+	input[type="submit"] {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    width: 35px;
+	    height: 50px;
+	    line-height: 50px;
+	    background: none;
+	    border: none !important;
+	    text-indent: -99999px;
+	    opacity: 0;
+	    padding: 0;
+        &:hover {
+            background-color: none !important;
+            opacity: 0.4;
+        }
+	}
+}
+/* ==========================================================================
+   [Start] 2. Widget Search
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 3. Widget Tags
+========================================================================== */
+.tagcloud a {
+    font-size: 13px!important;
+    line-height: 30px;
+    height: 34px;
+    padding: 0 15px;
+    color: #6f6f6f;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    @include border-radius(0);
+    background-color: transparent;
+    border: 1px solid #ececec;
+    &:hover {
+        border-color: $primary_color;
+        background-color: transparent;
+	}
+}
+/* ==========================================================================
+   [End] 3. Widget Tags
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 4. Instagram
+========================================================================== */
+.zo-instagram-pics {
+	.instagram-item {
+	    margin: 0 0 16px;
+	    padding: 0 8px;
+        a {
+            display: block;
+            position: relative;
+        }
+	}
+}
+.zo-get-touch li {
+	position: relative;
+	padding-left: 30px;
+	i {
+		font-size: 20px;
+		color: #808080;
+		padding-right: 10px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+/* ==========================================================================
+   [End] 4. Instagram
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 5. Twitter
+========================================================================== */
+.tweets-container {
+    ul {
+        list-style: none inside;
+        margin: 0; padding: 0;
+        li {
+            font-size: 11px;
+            line-height: 18px;
+            margin-bottom: 25px;
+            .jtwt_date {
+                color: #3a3a3a!important;
+                .fa {
+                    padding-right: 18px;
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   [Start] 5. Zo Recent Post
+========================================================================== */
+
+.zo-recent-post {
+    margin-top: 40px;
+    .zo-recent-post-wrapper {
+        margin-left: 0;
+        > li {
+            margin: 0 0 40px;
+            clear: both;
+            line-height: normal;
+            &:last-child {
+                margin: 0;
+            }
+        }
+        .zo-recent-media {
+            width: 70px;
+            max-width: 70px;
+            float: left;
+        }
+        .zo-recent-details {
+            padding-left: 100px;
+            font-size: 14px;
+            &.no-image {
+                padding: 0;
+            }
+            .title {
+                font-size: 16px;
+                margin: 0 0 10px;
+                color: #141414;
+                font-weight: normal;
+                letter-spacing: 0;
+                line-height: normal;
+                a {
+                    color: #141414;
+                }
+            }
+            .date {
+                display: inline-block;
+                .author {
+                    padding-left: 1px;
+                    &:before {
+                        content: "|";
+                        padding-right: 3px;
+                    }
+                }
+            }
+
+            .post-categories {
+                margin: 0;
+                li {
+                    line-height: normal;
+                    a {
+                        @extend .font-second;
+                        font-style: italic;
+                        font-size: 16px;
+                        color: #6f6f6f;
+                    }
+                }
+            }
+
+        }
+    }
+}
+#secondary .zo-recent-post-wrapper {
+	.zo-recent-details .date {
+		color: $primary_color;
+	}
+}
+
+/**
+* Calendar Widget
+*/
+.widget_calendar table {
+	width: 100%;
+    caption {
+        text-align: center;
+        font-weight: bold;
+    }
+	td {
+		text-align: center;
+	}
+}
+
+/**
+* Products Rate
+*/
+.widget_top_rated_products {
+    .product_list_widget {
+        li {
+            overflow: hidden;
+            margin-bottom: 30px !important;
+            a {
+                img {
+                    float: left;
+                    width: 70px;
+                    height: 75px;
+                    margin-right: 30px;
+                }
+                .product-title {
+                    float: left;
+                    color: #141414;
+                    font-size: 12px;
+                    width: calc(100% - 105px);
+                    line-height: normal;
+                    text-transform: uppercase;
+                    letter-spacing: 0.1em;
+                    font-weight: normal;
+					word-wrap: break-word;
+                }
+            }
+            .amount {
+                @extend .font-second;
+                font-size: 18px;
+                font-style: italic;
+                letter-spacing: 0.1em;
+                color: #141414;
+            }
+			ins{
+				text-decoration: none;
+			}
+        }
+    }
+}
+
+/**
+* Filter
+*/
+.widget_price_filter .price_slider_wrapper {
+    position: relative;
+    padding-top: 30px;
+    .price_slider {
+        background-color: #909090!important;
+        @include border-radius(0!important);
+        .ui-slider-handle {
+            width: 20px;
+            height: 20px;
+            top: -7px;
+            left: -10px;
+            background-color: $primary_color;
+        }
+        .ui-slider-range {
+            background-color: #141414;
+        }
+    }
+    .price_slider_amount {
+        .price_label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 13px;
+            color: #6f6f6f;
+        }
+        .button {
+            margin-top: 55px;
+            @include border-radius(0);
+            border: 2px solid #e4e4e4;
+            padding: 10px 25px;
+        }
+    }
+}
+
+
+/**
+* News Tabs
+*/
+.widget_ww_news_tabs {
+    .tab-holder .tab-hold {
+        .nav-tabs {
+            overflow: hidden;
+            border-left: 1px solid #ECECEC;
+            border-right: 1px solid #ECECEC;
+            li {
+                background-color: #f2f2f2;
+                border: none;
+                border-top: 2px solid transparent;
+                display: block;
+                float: left;
+                width: 50%;
+                text-align: center;
+                letter-spacing: 0.1em;
+                font-size: 12px;
+                a {
+                    display: block;
+                    border: none!important;
+                }
+                &.active {
+                    background-color: transparent;
+                    border-top-color: $primary_color;
+                }
+            }
+        }
+    }
+    .tab-content {
+        margin: 0;
+        border-width: 0 1px 1px 1px;
+        .tab-pane {
+            padding: 40px 20px 0;
+			@include breakpoint-in(768px,992px){
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+        }
+        .news-list {
+            margin: 0;
+            li {
+                width: 100%;
+                clear: both;
+                overflow: hidden;
+                margin-bottom: 40px;
+                .zo-image {
+                    width: 70px;
+                    height: 70px;
+                    float: left;
+                    + .zo-details {
+                        padding-left: 100px;
+                    }
+                }
+                .zo-details {
+                    line-height: normal;
+                    h4 {
+                        font-size: 16px;
+                        line-height: normal;
+                        font-weight: 400;
+                        letter-spacing: 0;
+                        margin: 0 0 5px;
+                        padding: 0;
+                    }
+                    a {
+                        @extend .font-second;
+                        font-style: italic;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*
+* Recent Comments
+*/
+.widget_recent_comments{
+	.recentcomments{
+		color: #c8c8c8;
+	}
+}
+/**
+* Rss Widget
+*/
+.widget_rss{
+    ul li {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid $primary_color;
+    }
+	.rssSummary{
+		line-height: 30px;
+	}
+}
+
+/* Lastet new, recent post with thumb */
+.widget.widget_zo-recent-posts-widget-with-thumbnails{
+    ul {
+        li{
+            width: 100%;
+            margin: 2px 0 1px;
+        }
+    }
+    .recent-thumb {
+        img {
+            float: left;
+            margin: 11px 13px 15px 0;
+            vertical-align: middle;
+        }
+         h3{
+             line-height: 1.2;
+           a{
+              font-weight: 700;
+              padding-bottom: 0;
+              font-size: 14px;
+              color: #242424;
+              &hover {
+                  color: #242424;
+              }
+           } 
+        }
+        .metabox {
+            font-style: italic;
+            font-size: 14px;
+            line-height: 1.625;
+            font-weight: 400;
+            font-family: "Source Sans Pro";
+            a {
+                color:$primary_color;
+            }
+        }
+    }
+    
+}
+.wpb_widgetised_column .widget.widget_zo-recent-posts-widget-with-thumbnails{
+    margin-bottom: 0;
+    
+}
+/*Style Search widget*/
+.widget_search {
+    .searchform  {
+        input[type="text"] {
+            @include border-radius(30px !important) ; 
+            border: 1px solid #ccc;
+            padding: 6px 12px;
+        }
+        input {
+          height: 34px;
+          padding: 6px 12px;
+          font-size: 14px;  
+          line-height: 1.42857143;
+        }
+         input[type="submit"] {
+            opacity:1;  
+            @include border-radius(0 30px 30px 0);  
+            border: 1px solid #ccc !important;
+            width: 51px;
+            background: #fff;
+        }
+        &:before {
+            top: 7px;
+            font-size: 14px;  
+            right: 18px;
+            z-index: 1;
+        }
+    }    
+}
+.widget_zo-recent-posts-widget-with-thumbnails{
+    ul{
+        li{
+            display: inline-block;
+            max-width: 370px;
+            overflow: hidden;
+            + li{
+                margin-left: 26px;
+            }
+            .zo-post-title h3{
+                line-height: 18px;
+                margin-top: 19px;
+                letter-spacing: 0;
+                text-transform: capitalize;
+                margin-bottom: 0;
+            }
+            .zo-post-content{
+                p{
+                    color: #6f6f6f;
+                    line-height: 24px;
+                    margin-bottom: 35px;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+}
+/*Widget social*/
+
+#zo-header.zo-header-style-9 {
+    
+    ul.zo-social {
+
+       li {
+            width: 23px;
+           &:hover {
+            color: $primary_color ;
+           }
+           a {
+               i{
+                 background: 0;  
+                 color: #fff;
+                 padding:  20px 0 0 10px;
+                 margin: 0;
+                 @include border-radius(0);
+                 font-size: 14px;
+               }
+           }
+           .tooltip-inner {
+               display: none;
+               height: 0;
+           }
+           .tooltip.bottom .tooltip-arrow {
+               display: none;
+           }
+           .tooltip{
+               display: none;
+            } 
+           
+       }
+    }
+}
+.zo-social {
+    padding-left: 0;
+    li {
+        a {
+            i{
+                width: 30px;
+                height: 30px;
+                color: #999;
+                background: #f8f8f8;
+                margin-left: 8px;
+                text-align: center;
+                line-height: 30px;
+                @include border-radius(50%);
+                &:hover {
+                  @include background-gradient-color(rgba(23,223,190,1),rgba(21, 218, 192, 1),rgba(13, 200, 203, 1),rgba(6, 180, 215, 1),rgba(4, 175, 218, 1));
+                  color: #fff ;
+                }
+            }
+        }
+    }
+}
+/*zo-footer-widgets*/
+.zo-footer-widgets {
+    text-align: center;
+    img{
+         margin-bottom: 20px;
+    }
+    p {
+        margin: 0 0 10px;
+        font-size: 16px;
+        line-height: 2.7;
+        color: #999;
+    }
+}
+/*widget_zo_social_widget*/
+.widget_zo_social_widget {
+    .text-center {
+        text-align: ceneter;
+    }
+    .zo-social {
+        list-style: none;
+        li{
+            display: inline-block;
+            .tooltip-inner{
+                        background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(23, 223, 190, 1) 0px, rgba(21, 218, 192, 1) 24%, rgba(13, 200, 203, 1) 57%, rgba(6, 180, 215, 1) 86%, rgba(4, 175, 218, 1) 100%) repeat scroll 0 0;
+                        border-radius:0px ;
+                        white-space: nowrap;
+                        &:after{
+                            background: red;
+                        }
+            }
+            .tooltip{
+               top:40px !important; 
+            } 
+            .tooltip.bottom .tooltip-arrow {
+                border-bottom-color: rgba(23,223,190,1);
+                
+            }
+        }
+    }
+}
+footer .widget_zo_social_widget {
+    text-align: center;
+     .zo-social {
+         li{
+            a{
+                i{
+                    height: 40px;
+                    line-height: 40px;
+                    margin-bottom: 12px;
+                    margin-left: 0;
+                    margin-right: 12px;
+                    text-align: center;
+                    width: 40px;
+                }
+            }
+            
+        } 
+     }
+}
+.copybuttons {
+    text-align: center;
+    .btn-transparent {
+         border-color: #ccc;
+         background: 0 0!important;
+        color: #999!important;
+        border: 2px solid #ccc !important;
+    }
+}
+.zo-social-left {
+    li {
+        a {
+            i{
+                background: #f8f8f8 ! important;
+                margin-left:5px;
+                &:hover{
+                    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(23, 223, 190, 1) 0px, rgba(21, 218, 192, 1) 24%, rgba(13, 200, 203, 1) 57%, rgba(6, 180, 215, 1) 86%, rgba(4, 175, 218, 1) 100%) ! important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+/*------------------------------------------------------------------
+[All Style Sidebar Widget]
+
+-------------------------------------------------------------------*/
+.secondary,
+.wpb_widgetised_column {
+    .searchform {
+        margin-bottom: 0px;
+        input[type="text"] {
+            font-size: 14px;
+            font-weight: 300;
+            font-style: normal;
+            color: #555;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .widget {
+
+        border-bottom: none;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .wg-title {
+        margin-bottom: 16px;
+        padding: 10px 0;
+        @extend .font-second;
+        font-size: 24px;
+        line-height: 28.8px;
+        text-transform: uppercase;
+        color: #141414;
+        letter-spacing: 0;
+       
+    }
+    .zo-carousel-content {
+        margin-bottom: 30px;
+    }
+    .widget_zo-recent-posts-widget-with-thumbnails {
+        > ul {
+            margin:0 0 17px 0;
+        }
+    }
+    .widget_layered_nav ul {
+        margin: -20px 0 0 30px;
+    }
+    ul {
+        margin: 0 0 10px 0;
+        padding: 0;
+        ul {
+            margin: 0 0 0 15px;
+        }
+        li {
+            list-style: none inside;
+            line-height: 48px;
+            font-size: 13px;
+            a {
+                color: #6f6f6f;
+				text-transform: capitalize;
+                &:hover {
+                    color: $primary_color;
+                }
+            }
+            &.chosen,
+            &.current-cat {
+                a {
+                    color: $primary_color;
+                }
+            }
+        }
+    }
+}
+
+.wpb_widgetised_column {
+    .widget_newsletterwidget {
+        .wg-title {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+    }
+}
+
+/**
+* RSS Widget
+*/
+.widget_rss {
+    ul li a {
+        color: $primary_color;
+    }
+}

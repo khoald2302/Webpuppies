@@ -1,0 +1,64 @@
+/* ==========================================================================
+    Style Button
+========================================================================== */
+$preset-purple-color: #ad8bbf;
+$preset-crimson-color: #e86211;
+$preset-gray-color: #909090;
+.btn, button, .button, input[type="submit"] {
+    line-height: 1;
+    display: inline-block;
+    outline: medium none;
+    text-decoration: none;
+    color: #333;
+    @include transition(all 300ms linear 0ms);
+    font-weight: 400;
+    text-transform: none;
+}
+
+.btn {
+}
+
+.btn:hover, button:hover, .button:hover, input[type="submit"]:hover, .btn:focus, button:focus, .button:focus, input[type="submit"]:focus {
+    outline: medium none;
+    text-decoration: none;
+}
+
+/* Custom VC Button */
+/* Button default */
+.zo_button {
+
+}
+
+
+@include breakpoint-max(768px) {
+    .btn-parallax-scrolling .btn {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* ==========================================================================
+    End Style Button
+========================================================================== */
+.btn-primary {
+    padding: 5px 22px;
+}
+.btn-lg{
+    font-size: 14px;
+    line-height: 1.33;
+    padding: 13px 57px!important;
+}
+.btn {
+    border: 2px solid #ddd;
+}
+.btn-transparent {
+    border: 2px solid #fff !important;
+    background: 0 0 !important;
+   
+}
+.border-radius{
+    @include border-radius( 50px ! important);
+}
+.btn-border-radius {
+     @include border-radius( 50px ! important);
+}

@@ -1,0 +1,160 @@
+/*
+Retro - Launcher Template
+http://mythemeshop.com/plugins/launcher/
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+body { line-height: 1 }
+ol, ul { list-style: none }
+blockquote, q { quotes: none }
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html, body { height: 100% }
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+* {
+    box-sizing: border-box;
+}
+.wrap {
+    padding: 200px 0;
+    text-align: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+#logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+#title {
+    font-size: 30px;
+    line-height: 24px;
+    color: #ebebeb;
+    text-transform: uppercase;
+    margin-bottom: 115px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+#description {
+    font-family: Athelas;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.625;
+    color:#fff;
+    width: 70%;  
+    margin: 0 auto 50px;
+}
+
+
+#wplauncher-subscribe {
+    text-align: center;
+    margin: 80px 0;
+}
+.wplauncher-subscribe-fieldset {
+    display: inline-block;
+    height: 60px;
+    position: relative;
+}
+#wplauncher-subscribe-email{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 50px;
+    width: 500px;
+    border: 0;
+    color: #fff;
+    padding: 15px;
+    margin-right: 20px;
+}
+#wplauncher-subscribe-submit {
+    display: inline-block;
+    padding: 13px 57px;
+    background-color: #fff;
+    border: none;
+    color: rgba(3, 172, 220, 1);
+    font-size: 12px;
+    border-radius: 30px;
+    width: 155px;
+    cursor: pointer;
+}
+.wplauncher-social a {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #b8b8b8;
+    border-radius: 100%;
+    border: 2px solid rgba(255,255,255,0.2);
+    margin: 0 5px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+.wplauncher-social a .wplauncher-social-title {
+    display: none;
+}
+.wplauncher-social a:hover {
+    color: #FFF;
+    background-color: #f6b138;
+}
+.time_circles{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.time_circles > div{
+    position: absolute;
+    text-align: center;
+}
+.time_circles > div >h4{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.time_circles>div>span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 0.4em;
+    font-weight: 700;
+}
+@media screen and (max-width: 1024px) {
+    .wrap {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wplauncher-subscribe-fieldset {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 360px) {
+    #wplauncher-subscribe-email,
+    #wplauncher-subscribe-submit {
+        width: calc(100% - 105px);
+    }
+    #wplauncher-subscribe-submit {
+        width: 100px;
+        cursor: pointer;
+    }
+}

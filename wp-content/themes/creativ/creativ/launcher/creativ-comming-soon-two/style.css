@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+body { line-height: 1 }
+ol, ul { list-style: none }
+blockquote, q { quotes: none }
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html, body { height: 100% }
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+* {
+    box-sizing: border-box;
+}
+.wrap {
+    padding: 200px 0;
+    text-align: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+#logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+#title {
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+#description {
+    font-family: Athelas;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.625;
+    color:#999;
+    width: 70%;  
+    margin: 0 auto 50px;
+}
+#wplauncher-countdown {
+    margin-bottom: 70px;
+}
+#wplauncher-countdown .counting {
+    display: inline-block;
+    margin: 0 50px 50px;
+    text-align: center;
+    color: rgba(3, 172, 220, 1);
+    width: 170px;
+}
+#wplauncher-countdown .counting .count_num {
+    font-size: 80px;
+    padding: 15px 15px 40px;
+    display: block;
+    font-weight: bold;
+    position: relative;
+}
+#wplauncher-countdown .counting .count_text {
+    font-family: "Source Sans Pro",sans-serif !important;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.625;
+    color:rgba(3, 172, 220, 1);
+}   
+
+#wplauncher-subscribe {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.wplauncher-subscribe-fieldset {
+    display: inline-block;
+    height: 60px;
+    position: relative;
+}
+#wplauncher-subscribe-email{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 50px;
+    width: 500px;
+    border: 0;
+    color: #555;
+    padding: 15px;
+    margin-right: 20px;
+    border: 1px solid #c9c9c9;
+}
+#wplauncher-subscribe-submit {
+    display: inline-block;
+    padding: 13px 57px;
+    background-color: #03acdc;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 30px;
+    width: 155px;
+    cursor: pointer;
+    ;
+}
+#wplauncher-subscribe-submit:hover {
+    background-color: #282828;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrap {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wplauncher-subscribe-fieldset {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 360px) {
+    #wplauncher-subscribe-email,
+    #wplauncher-subscribe-submit {
+        width: calc(100% - 105px);
+    }
+    #wplauncher-subscribe-submit {
+        width: 100px;
+        cursor: pointer;
+    }
+}
