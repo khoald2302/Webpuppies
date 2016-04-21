@@ -101,10 +101,8 @@ if(!empty($zo_meta->_zo_header_color)){
                     ?>
                 </nav>
             </div>
-			<div class="menu-right">
-				<span><a title="Search" href="#" id="filter-menu" class="nav-toggle collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="false"><i class="fa fa-search"></i></a></span>
-			</div> 
-            <div class="shadow"></div>
+		
+
             <div id="zo-menu-mobile" class="collapse navbar-collapse"><i class="fa fa-bars fa-2x"></i></div>
         </div>
         <!-- #site-navigation -->
