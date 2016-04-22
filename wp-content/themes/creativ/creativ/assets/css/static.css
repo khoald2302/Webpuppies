@@ -2758,7 +2758,25 @@ blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
 
 a.btn.cta-btn.cta-no-shadow.ua-cta-why-us {
   line-height: 1.42857 !important;
-  /***********End style for button learn more home*************/ }
+  /***********End style for button learn more home*************/
+  /*style for experience worked with  brands******/ }
+
+.content-brand .container {
+  /* End style for experience worked with  brands*/ }
+  .content-brand .container h2 {
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit; }
+  .content-brand .container #established {
+    margin: 40px 0 40px; }
+  .content-brand .container #established img {
+    margin: 0 30px 40px; }
+  .content-brand .container #growing {
+    margin: 40px 0 0; }
+  .content-brand .container #growing img {
+    margin: 0 30px 40px; }
 
 @media screen and (max-width: 767px) {
   body div#zo-header.zo-header-2, body.admin-bar div#zo-header.zo-header-2 {
@@ -10925,7 +10943,10 @@ footer .widget_zo_social_widget {
     max-width: calc(1170px / 12 * 12 + 30px) ! important; }
 
   .zo_column_special_5 .vc_column-inner > .wpb_wrapper {
-    max-width: calc(1170px / 12 * 12 + 30px) ! important; } }
+    max-width: calc(1170px / 12 * 12 + 30px) ! important; }
+
+  .other-services-box {
+    padding-bottom: 40px !important; } }
 
 @media screen and (min-width: 1200px) {
   .zo_column_special .vc_column-inner > .wpb_wrapper {
@@ -11364,7 +11385,10 @@ footer .widget_zo_social_widget {
   div.zo-no-flex-mobile {
     /*===End Content style*/ }
     div.zo-no-flex-mobile .container .vc_row-flex {
-      display: block; } }
+      display: block; }
+
+  .other-services-box {
+    width: 150px !important; } }
 
 @media screen and (max-width: 640px) {
   #zo-site-map a {
