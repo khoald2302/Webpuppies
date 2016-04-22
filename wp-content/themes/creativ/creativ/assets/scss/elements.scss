@@ -925,7 +925,7 @@ $message-red-light : #fff0ec;
 }
 /* prettyPhoto styling for small screens */
 
-/****************style for local home ********************/
+/****************style for local contact home ********************/
 .cta-banner-announce .vc_row{
     display: table;
     margin: 0 auto;
@@ -936,20 +936,122 @@ $message-red-light : #fff0ec;
         margin: 0px auto;
         padding: 10px;
 
-        p{
-            line-height: 1.7em;
-            padding-bottom: 10px;
+        .wpb_wrapper{
+            color: #fff;
+            font-family: 'Bitter', serif;
+            text-shadow: 0 2px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
+            line-height: 1.42857143;
 
-           
+            .cta-header {
+                font-size: 48px;
+                line-height: 1.7em;
+                padding-bottom: 10px;
+            }
+
+            p{
+                font-size: 20px;
+                line-height: 1.7em;
+                padding-bottom: 10px;
+            }
+
+            .cta-tel{
+                margin: 20px 0 0 !important;
+
+                a{
+                    color: #337ab7;
+                    text-decoration: none;
+                }
+                & :hover{
+                        color: #fc0;
+                        text-decoration: underline;
+                }
+                &:link{
+                    color: #e66202;
+                }
+            }
         }
-
-        .cta-header {
-            font-size: 48px;
-        }
-
-        
-    }
-    
+    }    
+}
+/**************** end style for local contact home ********************/
+.text-specialise h2{
+    font-size: 30px;
+    text-align: center;
 
 }
+
+/**************Style for services-other home****************/
+
+#services-other{
+    margin: 40px 0 80px;
+    text-align: center;
+
+    .other-services-box{
+        display: inline-block;
+        padding: 0 30px 0;
+        width: 200px;
+        vertical-align: top;
+
+        h3{
+            margin: 10px 0 0;
+            line-height: 1.1em;
+            font-family: inherit;
+        }
+    }
+}
+/************** End style for services-other home****************/
+
+/***********Style for button learn more home*****************/
+
+.learn-more{
+
+    text-align: center;
+
+
+   
+    .cta-btn {
+    background: #e66202;
+    font-size: 22px;
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+   }
+}
+a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
+    line-height: 1.42857143 !important;
+}
+/***********End style for button learn more home*************/
+
+/*style for experience worked with  brands******/
+.content-brand .container {
+h2{
+        margin: 0;
+        text-align: center;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+}
+#established{
+    margin: 40px 0 40px;
+    img{
+        margin: 0 30px 40px;
+    }
+}
+#growing{
+    margin: 40px 0 0;
+    img{
+        margin: 0 30px 40px;
+    }
+}
+}
+
+/* End style for experience worked with  brands*/
 

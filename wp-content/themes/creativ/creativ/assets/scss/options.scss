@@ -52,20 +52,20 @@ body.admin-bar #zo-header.zo-header-1 { margin-top: calc( + 32px );}#zo-header-l
 			}#zo-footer-top .wg-title:before {
 				background-color:#ffffff;
 			}.vc_general.vc_btn3.btn , button.vc_general.vc_btn3, a.vc_general.vc_btn3, .btn, .button, input[type='submit'] {
-                    color:transparent;
+                    color:#ffffff;
                     background-color:#e66202;
                     @include border-radius(5px);
                 }.vc_general.vc_btn3.btn:hover, button.vc_general.vc_btn3:hover, a.vc_general.vc_btn3:hover, .btn:hover, .button:hover, input[type='submit']:hover,.vc_general.vc_btn3.btn:focus, button.vc_general.vc_btn3:focus, a.vc_general.vc_btn3:focus, .btn:focus, .button:focus, input[type='submit']:focus {
                     color:#333333;
                     background-color:#ffcc00;
                 }.vc_general.vc_btn3.btn.btn-primary, .btn.btn-primary {
-                    color:transparent;
-                    background-color:#e66202;
-					@include border-radius(5px);
+                    color:#ffffff;
+                    background-color:#03acdc;
+					@include border-radius(0);
                 }.vc_general.vc_btn3.btn.btn-primary:hover, .btn.btn-primary:hover,
 			.vc_general.vc_btn3.btn.btn-primary:focus {
-				color:#333333;
-				background-color:#ffcc00;
+				color:#ffffff;
+				background-color:#282828;
 			}.btn , button, .button, a.vc_general.vc_btn3, input[type='submit'] {
 				text-transform: uppercase;
 			}

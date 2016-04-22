@@ -20,6 +20,9 @@
         max-width: calc(1170px / 12 * 12 + 30px) ! important;
 
     }
+    .other-services-box {
+    padding-bottom: 40px !important;
+}
 }
 @media screen and (min-width: 1200px) {
     .zo_column_special .vc_column-inner > .wpb_wrapper {
@@ -647,6 +650,10 @@
 
     }
     /*===End Content style*/
+
+    .other-services-box {
+    width: 150px !important;
+}
 }
 
 @media screen and (max-width: 640px) {
