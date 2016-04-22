@@ -3392,8 +3392,178 @@
 }
 
 
+
+// signature-services
+
+#signature-services{
+    #zo-fancy-box-single, #zo-fancy-box-single-2, #zo-fancy-box-single-3{
+        padding: 20px;
+
+
+        .zo-fancybox-item{
+            .fancybox-header{
+                .fancybox-icon{
+                    border: none;
+                    width: 150px;
+                    height: auto;
+                    margin: 0 auto;
+                }
+                h3{
+                    font-size: 30px;
+                    font-weight: 700;
+                    font-family: Lato;
+                    text-transform: inherit;
+                    line-height: 1.1;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                }
+            }
+            .fancybox-content{
+                p{
+                    font-size: 20px;
+                    line-height: 1.7em;
+                    padding-bottom: 10px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .body-radius{
+        @include border-radius(10px);
+    }
+    .color-web-ds{
+        background-color: #44b5bc;
+    }
+    .color-conver{
+        background-color: #ea436f;
+    }
+    .color-e-com{
+        background-color: #e99353;
+    }
+}
+
+
+// pic-grant
+#pic-grant{
+    color: #1b739a ;
+    height: 250px;
+    width: auto;
+    &.cta-banner-wrapper{
+        font-family: 'Bitter', serif;
+    }
+    .cta-banner-parent{
+
+        display: table;
+        margin: 0 auto;
+        width: 720px;
+        height: 100%;
+        .cta-banner-child{
+            display: table-cell;
+            vertical-align: middle;
+            h2{
+
+                color: #1b739a ;
+                &.pic-header{
+                    margin: 0;
+                    font-size: 34px;
+                    font-weight: 700;
+                }
+            }
+            p{
+                font-size: 20px;
+                line-height: 1.7em;
+                padding-bottom: 10px;
+
+                &.pic-text{
+
+                    strong{
+                        font-size: 30px;
+                    }
+                }
+            }
+            a{
+
+                &.pic-btn{
+                    background-color: #1b739a;
+                    font-size: 16px;
+                    box-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
+                }
+            }
+        }
+    }
+}
+
+//cta-better
+#cta-better-first{
+    #cta-better{
+        &.cta-banner-wrapper{
+            color: #fff;
+            font-family: 'Bitter', serif;
+            text-shadow: 0 2px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
+            width: 100%;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: cover;
+            .cta-banner-parent{
+                display: table;
+                margin: 0 auto;
+                width: 720px;
+                height: 100%;
+                .cta-banner-child{
+                    display: table-cell;
+                    vertical-align: middle;
+                    .cta-header{
+                        font-size: 48px;
+                        text-align: center;
+                        color: #fff;
+                        line-height: 1.1;
+                    }
+                    p{
+                        font-size: 20px;
+                        line-height: 1.7em;
+                        padding-bottom: 10px;
+                        &.cta-text{
+                            margin: 20px 0;
+                        }
+                        &.cta-tel{
+                            margin: 20px 0 0 !important;
+                        }
+                        a:link{
+                            color: #e66202;
+                        }
+                        a:hover{
+                            color: #fc0 !important;
+                            text-decoration: underline;
+                        }
+                    }
+
+
+
+
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//----- Global
+
 .text-center {
-    text-align: center;
+    text-align: center ;
 }
 
 .cta-no-shadow{
@@ -3414,5 +3584,13 @@
     color: #fff;
     font-family: 'Bitter', serif;
     white-space: normal;
+    &:hover{
+        background-color: #fc0 !important;
+    }
 }
+
+.pic-text {
+    white-space: pre;
+}
+
 
