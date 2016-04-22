@@ -195,11 +195,7 @@ body.fixed-margin-top {
   background-color: #fff; }
 
 .vc_general.vc_btn3.btn, button.vc_general.vc_btn3, a.vc_general.vc_btn3, .btn, .button, input[type='submit'] {
-<<<<<<< HEAD
   color: #fff;
-=======
-  color: transparent;
->>>>>>> 37fd18856f05bedd2671de60bf427a5a8e123ab0
   background-color: #e66202;
   -webkit-border-radius: 5px;
   -khtml-border-radius: 5px;
@@ -214,19 +210,19 @@ body.fixed-margin-top {
   background-color: #fc0; }
 
 .vc_general.vc_btn3.btn.btn-primary, .btn.btn-primary {
-  color: transparent;
-  background-color: #e66202;
-  -webkit-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
+  color: #fff;
+  background-color: #03acdc;
+  -webkit-border-radius: 0;
+  -khtml-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
   /*Add 22/10/2015 Mixin BACKGROUND GRADIENT FOR COLOR */ }
 
 .vc_general.vc_btn3.btn.btn-primary:hover, .btn.btn-primary:hover, .vc_general.vc_btn3.btn.btn-primary:focus {
-  color: #333;
-  background-color: #fc0; }
+  color: #fff;
+  background-color: #282828; }
 
 .btn, button, .button, a.vc_general.vc_btn3, input[type='submit'] {
   text-transform: uppercase; }
@@ -2743,14 +2739,10 @@ blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
     font-family: inherit; }
 
 .learn-more {
-  text-align: center;
-  /***********End style for button learn more home*************/ }
-  .learn-more #service-btn {
-    white-space: pre; }
+  text-align: center; }
   .learn-more .cta-btn {
     background: #e66202;
-    font-size: 22px; }
-  .learn-more .btn, .learn-more .yellow-btn {
+    font-size: 22px;
     display: inline-block;
     padding: 10px 30px;
     border: none;
@@ -2758,12 +2750,15 @@ blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
     color: #fff;
     font-family: 'Bitter', serif;
     font-weight: 400;
-    line-height: 1.42857;
     text-align: center;
     margin-bottom: 0;
     touch-action: manipulation;
     cursor: pointer;
     -webkit-user-select: none; }
+
+a.btn.cta-btn.cta-no-shadow.ua-cta-why-us {
+  line-height: 1.42857 !important;
+  /***********End style for button learn more home*************/ }
 
 @media screen and (max-width: 767px) {
   body div#zo-header.zo-header-2, body.admin-bar div#zo-header.zo-header-2 {
@@ -7467,9 +7462,6 @@ body .wpb_content_element, body .wpb_button {
 .cta-btn {
   background: #e66202;
   font-size: 22px; }
-
-.cta-btn {
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4); }
 
 .btn {
   display: inline-block;

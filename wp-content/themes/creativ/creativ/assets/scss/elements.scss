@@ -1003,15 +1003,14 @@ $message-red-light : #fff0ec;
 /***********Style for button learn more home*****************/
 
 .learn-more{
+
     text-align: center;
-    #service-btn {
-    white-space: pre;
-}
-.cta-btn {
+
+
+   
+    .cta-btn {
     background: #e66202;
     font-size: 22px;
-}
-.btn, .yellow-btn {
     display: inline-block;
     padding: 10px 30px;
     border: none;
@@ -1019,13 +1018,15 @@ $message-red-light : #fff0ec;
     color: #fff;
     font-family: 'Bitter', serif;
     font-weight: 400;
-    line-height: 1.42857143;
     text-align: center;
-        margin-bottom: 0;
-            touch-action: manipulation;
+    margin-bottom: 0;
+    touch-action: manipulation;
     cursor: pointer;
     -webkit-user-select: none;
+   }
 }
+a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
+    line-height: 1.42857143 !important;
 }
 /***********End style for button learn more home*************/
 
