@@ -195,7 +195,7 @@ body.fixed-margin-top {
   background-color: #fff; }
 
 .vc_general.vc_btn3.btn, button.vc_general.vc_btn3, a.vc_general.vc_btn3, .btn, .button, input[type='submit'] {
-  color: #fff;
+  color: transparent;
   background-color: #e66202;
   -webkit-border-radius: 5px;
   -khtml-border-radius: 5px;
@@ -210,19 +210,19 @@ body.fixed-margin-top {
   background-color: #fc0; }
 
 .vc_general.vc_btn3.btn.btn-primary, .btn.btn-primary {
-  color: #fff;
-  background-color: #03acdc;
-  -webkit-border-radius: 0;
-  -khtml-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0;
+  color: transparent;
+  background-color: #e66202;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
   /*Add 22/10/2015 Mixin BACKGROUND GRADIENT FOR COLOR */ }
 
 .vc_general.vc_btn3.btn.btn-primary:hover, .btn.btn-primary:hover, .vc_general.vc_btn3.btn.btn-primary:focus {
-  color: #fff;
-  background-color: #282828; }
+  color: #333;
+  background-color: #fc0; }
 
 .btn, button, .button, a.vc_general.vc_btn3, input[type='submit'] {
   text-transform: uppercase; }
