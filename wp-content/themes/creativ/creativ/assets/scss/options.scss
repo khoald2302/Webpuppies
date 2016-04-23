@@ -23,6 +23,9 @@ body.admin-bar #zo-header.zo-header-1 { margin-top: calc( + 32px );}#zo-header-l
 				#zo-header-navigation .main-navigation .menu-main-menu > ul > li.current_page_item > a,
 				#zo-header-navigation .main-navigation .menu-main-menu > ul > li.current_page_ancestor > a {
 					color:#003c68;
+				}#zo-header-navigation .main-navigation .menu-main-menu > li > a,
+				#zo-header-navigation .main-navigation .menu-main-menu > ul > li > a {
+					text-transform: uppercase;
 				}}@media screen and (max-width: 991px){.zo-vertical-menu #zo-header-navigation .main-navigation .menu-main-menu > li {
                         text-align: right !important;
                     }}#zo-header.zo-main-header.header-fixed #zo-header-navigation .main-navigation .menu-main-menu > li > a {

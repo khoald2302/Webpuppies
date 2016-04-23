@@ -3324,6 +3324,17 @@
 ========================================================================== */
 
 
+//#hero-banner-home-first
+#hero-banner-home-first{
+    #hero-banner-home{
+
+
+
+    }
+}
+
+
+
 // #hero-banner-divider
 
 #hero-banner-divider{
@@ -3396,6 +3407,16 @@
 // signature-services
 
 #signature-services{
+
+    .title-block{
+
+        h2{
+            line-height: 1.1;
+            margin-bottom: 40px;
+        }
+
+    }
+
     #zo-fancy-box-single, #zo-fancy-box-single-2, #zo-fancy-box-single-3{
         padding: 20px;
 
@@ -3590,5 +3611,38 @@
 .pic-text {
     white-space: pre;
 }
+.title-block{
+    h2{
+        line-height: 1.1;
+    }
+}
 
+
+
+
+
+// Responsive
+@media screen and (max-width: 767px) {
+    #hero-banner-home-first{
+        #hero-banner-home{
+
+            .visible-xs-block{
+                display: block !important;
+            }
+
+        }
+    }
+    #hero-banner-divider{
+        height: auto;
+        padding-bottom: 10px;
+        #hero-banner-text{}
+        margin: 15px;
+        color: #fff;
+        font-weight: 300;
+        span{
+            font-size: 75px;
+            line-height: 60px;
+        }
+    }
+}
 

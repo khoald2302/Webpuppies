@@ -18,7 +18,7 @@
         margin-right: 0;
     }
     .container-fluid{
-       padding: 0; 
+        padding: 0;
     }
 }
 
@@ -435,20 +435,20 @@ $message-red-light : #fff0ec;
                     .vc_tta-panel-heading {
                         .vc_tta-panel-title {
                             > a {
-                                span{ 
+                                span{
                                     color: #282828;
                                     font-size: 16px;
                                     line-height:26px ;
                                     font-weight: 300;
                                 }
                                 &:after {
-                                    background: $primary_color;   
+                                    background: $primary_color;
                                     color: #fff;
                                     content: "\f068";
 
-                                } 
+                                }
                             }
-                        } 
+                        }
                     }
                 }
                 .vc_tta-panel {
@@ -568,7 +568,7 @@ $message-red-light : #fff0ec;
     height: 100%;
     position: absolute;
     top: 0;
-	@include transform( translateY(50%) );
+    @include transform( translateY(50%) );
 }
 .zo-social-section {
     .social-facebook-bg {
@@ -633,7 +633,7 @@ $message-red-light : #fff0ec;
         ul.vc_tta-tabs-list {
             text-align: center;
             border: none;
-            margin-bottom: 30px ; 
+            margin-bottom: 30px ;
             li.vc_tta-tab.vc_active {
                 a{
                     width: 100px;
@@ -662,7 +662,7 @@ $message-red-light : #fff0ec;
                     }
                     &:after {
                         width: 0px;
-                    } 
+                    }
                     i.vc_tta-icon {
                         width: 100%;
                         height: 100%;
@@ -695,7 +695,7 @@ $message-red-light : #fff0ec;
                     }
                 }
                 div.vc_tta-panel-body {
-                    padding: 0px;   
+                    padding: 0px;
                     margin: 0px !important;
 
                 }
@@ -795,9 +795,9 @@ $message-red-light : #fff0ec;
 }
 /*pageable_freelancer*/
 
-   .pageable_freelancer.vc_tta-has-pagination.vc_tta-tabs .vc_pagination {
-        margin-top: 24px;
-    }
+.pageable_freelancer.vc_tta-has-pagination.vc_tta-tabs .vc_pagination {
+    margin-top: 24px;
+}
 /*[start zo-tab-restaurant-menu]*/
 .zo-tab-restaurant-menu {
     .vc_tta-tabs-container {
@@ -815,13 +815,13 @@ $message-red-light : #fff0ec;
                 padding: 20px 60px;
 
                 &.vc_active {
-                   a {
-                       background-color: transparent;
-                       color: $primary_color;
-                       &:hover {
-                           background: transparent;
-                       }
-                   }
+                    a {
+                        background-color: transparent;
+                        color: $primary_color;
+                        &:hover {
+                            background: transparent;
+                        }
+                    }
                 }
                 a{
                     background: none repeat scroll 0 0 transparent;
@@ -853,7 +853,7 @@ $message-red-light : #fff0ec;
         }
     }
 }
-   /*[End zo-tab-restaurant-menu]*/
+/*[End zo-tab-restaurant-menu]*/
 /*[Start Contacform 7 Restaurant Demo]*/
 .zo-reservation-form {
     ul {
@@ -896,7 +896,7 @@ $message-red-light : #fff0ec;
     .vc_row-flex{
         @include breakpoint-max(992px){
             h1 {
-              font-size: 42px !important;
+                font-size: 42px !important;
             }
             .wpb_column:last-child .vc_column-inner {
                 padding-top: 0px !important;
@@ -918,9 +918,9 @@ $message-red-light : #fff0ec;
 /*[End Landing page style]*/
 /*[Poup Style]*/
 .pp_pic_holder {
-     .pp_content .pp_fade .pp_expand {
-         display: none !important;
-     }
+    .pp_content .pp_fade .pp_expand {
+        display: none !important;
+    }
 
 }
 /* prettyPhoto styling for small screens */
@@ -962,22 +962,32 @@ $message-red-light : #fff0ec;
                     text-decoration: none;
                 }
                 & :hover{
-                        color: #fc0;
-                        text-decoration: underline;
+                    color: #fc0;
+                    text-decoration: underline;
                 }
                 &:link{
                     color: #e66202;
                 }
             }
         }
-    }    
+    }
 }
 /**************** end style for local contact home ********************/
-.text-specialise h2{
-    font-size: 30px;
-    text-align: center;
 
+.signature-services{
+    padding: 80px 0;
+    .text-specialise
+    {
+        padding: 0 40px;
+        .wpb_wrapper h2{
+            font-size: 30px;
+            text-align: center;
+            padding: 0 15px;
+            margin: 0;
+        }
+    }
 }
+
 
 /**************Style for services-other home****************/
 
@@ -1007,23 +1017,23 @@ $message-red-light : #fff0ec;
     text-align: center;
 
 
-   
+
     .cta-btn {
-    background: #e66202;
-    font-size: 22px;
-    display: inline-block;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 0;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-   }
+        background: #e66202;
+        font-size: 22px;
+        display: inline-block;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-family: 'Bitter', serif;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 0;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+    }
 }
 a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
     line-height: 1.42857143 !important;
@@ -1031,26 +1041,29 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
 /***********End style for button learn more home*************/
 
 /*style for experience worked with  brands******/
+
+
+
 .content-brand .container {
-h2{
+    h2{
         margin: 0;
         text-align: center;
         font-weight: 500;
         line-height: 1.1;
         color: inherit;
-}
-#established{
-    margin: 40px 0 40px;
-    img{
-        margin: 0 30px 40px;
     }
-}
-#growing{
-    margin: 40px 0 0;
-    img{
-        margin: 0 30px 40px;
+    #established{
+        margin: 40px 0 40px;
+        img{
+            margin: 0 30px 40px;
+        }
     }
-}
+    #growing{
+        margin: 40px 0 0;
+        img{
+            margin: 0 30px 40px;
+        }
+    }
 }
 
 /* End style for experience worked with  brands*/

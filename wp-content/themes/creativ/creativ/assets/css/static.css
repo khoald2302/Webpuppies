@@ -170,7 +170,10 @@ body.fixed-margin-top {
     color: #003c68; }
 
   #zo-header-navigation .main-navigation .menu-main-menu > li.current-menu-item > a, #zo-header-navigation .main-navigation .menu-main-menu > li.current-menu-ancestor > a, #zo-header-navigation .main-navigation .menu-main-menu > li.current_page_item > a, #zo-header-navigation .main-navigation .menu-main-menu > li.current_page_ancestor > a, #zo-header-navigation .main-navigation .menu-main-menu > ul > li.current-menu-item > a, #zo-header-navigation .main-navigation .menu-main-menu > ul > li.current-menu-ancestor > a, #zo-header-navigation .main-navigation .menu-main-menu > ul > li.current_page_item > a, #zo-header-navigation .main-navigation .menu-main-menu > ul > li.current_page_ancestor > a {
-    color: #003c68; } }
+    color: #003c68; }
+
+  #zo-header-navigation .main-navigation .menu-main-menu > li > a, #zo-header-navigation .main-navigation .menu-main-menu > ul > li > a {
+    text-transform: uppercase; } }
 
 @media screen and (max-width: 991px) {
   .zo-vertical-menu #zo-header-navigation .main-navigation .menu-main-menu > li {
@@ -2718,10 +2721,16 @@ blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
   .cta-banner-announce .vc_row .cta-banner-announce-child .wpb_wrapper .cta-tel:link {
     color: #e66202; }
 
-.text-specialise h2 {
-  font-size: 30px;
-  text-align: center;
+.signature-services {
+  padding: 80px 0;
   /**************Style for services-other home****************/ }
+  .signature-services .text-specialise {
+    padding: 0 40px; }
+  .signature-services .text-specialise .wpb_wrapper h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0 15px;
+    margin: 0; }
 
 #services-other {
   margin: 40px 0 80px;
@@ -7471,8 +7480,11 @@ body .wpb_content_element, body .wpb_button {
     text-align: center;
     vertical-align: middle; }
 
-#signature-services #zo-fancy-box-single, #signature-services #zo-fancy-box-single-2, #signature-services #zo-fancy-box-single-3 {
-  padding: 20px; }
+#signature-services .title-block h2 {
+  line-height: 1.1;
+  margin-bottom: 40px; }
+  #signature-services #zo-fancy-box-single, #signature-services #zo-fancy-box-single-2, #signature-services #zo-fancy-box-single-3 {
+    padding: 20px; }
   #signature-services #zo-fancy-box-single .zo-fancybox-item .fancybox-header .fancybox-icon, #signature-services #zo-fancy-box-single-2 .zo-fancybox-item .fancybox-header .fancybox-icon, #signature-services #zo-fancy-box-single-3 .zo-fancybox-item .fancybox-header .fancybox-icon {
     border: none;
     width: 150px;
@@ -7596,6 +7608,23 @@ body .wpb_content_element, body .wpb_button {
 
 .pic-text {
   white-space: pre; }
+
+.title-block h2 {
+  line-height: 1.1; }
+
+@media screen and (max-width: 767px) {
+  #hero-banner-home-first #hero-banner-home .visible-xs-block {
+    display: block !important; }
+
+  #hero-banner-divider {
+    height: auto;
+    padding-bottom: 10px;
+    margin: 15px;
+    color: #fff;
+    font-weight: 300; }
+    #hero-banner-divider span {
+      font-size: 75px;
+      line-height: 60px; } }
 
 img {
   max-width: 100%; }
