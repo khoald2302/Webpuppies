@@ -7479,6 +7479,8 @@ body .wpb_content_element, body .wpb_button {
     line-height: 1.42857;
     text-align: center;
     vertical-align: middle; }
+  #cta-first #cta-easy .cta-banner-parent .cta-banner-child a.cta-btn {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4); }
 
 #signature-services .title-block h2 {
   line-height: 1.1;
@@ -7624,7 +7626,31 @@ body .wpb_content_element, body .wpb_button {
     font-weight: 300; }
     #hero-banner-divider span {
       font-size: 75px;
-      line-height: 60px; } }
+      line-height: 60px; }
+
+  #cta-first .container {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+    #cta-first .container #cta-easy.cta-banner-wrapper {
+      height: auto; }
+
+  #cta-easy .cta-banner-parent {
+    width: 100% !important;
+    padding: 40px 20px; }
+    #cta-easy .cta-banner-parent .cta-header {
+      font-size: 28px !important; }
+    #cta-easy .cta-banner-parent .cta-text {
+      font-size: 16px !important; }
+    #cta-easy .cta-banner-parent .cta-btn {
+      font-size: 14px !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #cta-easy .cta-banner-parent {
+    width: 600px !important; }
+    #cta-easy .cta-banner-parent .cta-header {
+      font-size: 40px !important; }
+    #cta-easy .cta-banner-parent .cta-text, #cta-easy .cta-banner-parent .cta-btn {
+      font-size: 18px !important; } }
 
 img {
   max-width: 100%; }
@@ -11720,7 +11746,7 @@ footer .widget_zo_social_widget {
       #zo-header.zo-header-transparent div#zo-header-navigation ul.menu-main-menu > li.has_full_width {
         position: relative;
         display: inline-block;
-        width: 100%;
+        width: 100% !important;
         height: 40px; }
       #zo-header.zo-header-transparent div#zo-header-navigation ul.menu-main-menu > li.zo-menu-hover ul.multicolumn {
         margin-top: 0; }
