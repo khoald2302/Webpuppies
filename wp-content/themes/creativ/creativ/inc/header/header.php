@@ -70,7 +70,7 @@ if(!empty($zo_meta->_zo_header_color)){
     echo ' header-custom-background';
 }
 ?>">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div id="zo-header-logo" class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                 <a href="<?php echo esc_url(home_url('/')); ?>"><img alt="" src="<?php echo esc_url(zo_page_header_logo()); ?>"></a>

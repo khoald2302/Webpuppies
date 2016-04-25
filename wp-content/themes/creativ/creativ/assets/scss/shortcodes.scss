@@ -3518,50 +3518,123 @@
 }
 
 //cta-better
-#cta-better-first{
-    #cta-better{
-        &.cta-banner-wrapper{
+#cta-better-first {
+    #cta-better {
+        &.cta-banner-wrapper {
             color: #fff;
             font-family: 'Bitter', serif;
-            text-shadow: 0 2px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
+            text-shadow: 0 2px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4);
             width: 100%;
             height: 400px;
             background-repeat: no-repeat;
             background-position: bottom center;
             background-size: cover;
-            .cta-banner-parent{
+            .cta-banner-parent {
                 display: table;
                 margin: 0 auto;
                 width: 720px;
                 height: 100%;
-                .cta-banner-child{
+                .cta-banner-child {
                     display: table-cell;
                     vertical-align: middle;
-                    .cta-header{
+                    .cta-header {
                         font-size: 48px;
                         text-align: center;
                         color: #fff;
                         line-height: 1.1;
                     }
-                    p{
+                    p {
                         font-size: 20px;
                         line-height: 1.7em;
                         padding-bottom: 10px;
-                        &.cta-text{
+                        &.cta-text {
                             margin: 20px 0;
                         }
-                        &.cta-tel{
+                        &.cta-tel {
                             margin: 20px 0 0 !important;
                         }
-                        a:link{
+                        a:link {
                             color: #e66202;
                         }
-                        a:hover{
+                        a:hover {
                             color: #fc0 !important;
                             text-decoration: underline;
                         }
                     }
 
+                }
+            }
+        }
+    }
+}
+
+
+
+/*-----  Services Design  -----*/
+
+
+    //hero-banner-services
+    #banner-services-intro{
+        a{
+            color: #337ab7;
+            &:hover{
+                color: #23527c !important;
+                text-decoration: underline !important;
+
+                &:focus {
+                    outline: thin dotted;
+                    outline: 5px auto -webkit-focus-ring-color;
+                    outline-offset: -2px;
+                    color: #23527c;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+
+        .panel-info {
+
+            &.panel {
+                margin-top: 30px;
+                padding: 0 !important;
+                margin-bottom: 20px;
+                background-color: #fff;
+                border: 1px solid transparent;
+                @include border-radius(4px);
+                @include box-shadow('box-shadow',0 1px 1px rgba(0,0,0,.05) );
+
+            }
+            border-color: #bce8f1 !important;
+            .panel-heading{
+                color: #31708f;
+                background-color: #d9edf7;
+                border-color: #bce8f1;
+            }
+            .panel-body {
+                padding: 15px;
+
+            }
+        }
+
+        #services-intro{
+
+            .teal {
+                color: #44b5bc;
+            }
+            margin-top: 30px;
+            h1{
+                margin-bottom: 10px;
+                font-family: 'Lato', sans-serif;
+                font-size: 30px;
+
+            }
+            p{
+                font-size: 20px;
+                line-height: 1.7em;
+                padding-bottom: 10px;
+                a{
+                    color: #337ab7;
+                    text-decoration: none;
 
 
 
@@ -3571,7 +3644,80 @@
     }
 
 
-}
+
+    #services-info{
+        a{
+            color: #337ab7;
+            &:hover{
+                color: #23527c !important;
+                text-decoration: underline !important;
+
+                &:focus {
+                    outline: thin dotted;
+                    outline: 5px auto -webkit-focus-ring-color;
+                    outline-offset: -2px;
+                    color: #23527c;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        p{
+            font-size: 20px;
+            line-height: 1.7em;
+            padding-bottom: 10px;
+        }
+        h2{
+            line-height: 1.1;
+            margin: 0;
+        }
+        #services-signature{
+            margin: 80px auto 0;
+
+            .services-info-header{
+                margin-bottom: 20px;
+                h2{
+                    font-size: 36px;
+                }
+                p{
+                    margin: 10px 0;
+                    font-size: 20px;
+                }
+
+            }
+            .important-box{
+                margin-bottom: 30px;
+                h3{
+                    font-family: Lato;
+                    margin: 20px 0 0;
+                    color: #27a7df;
+                    font-size: 30px;
+                    font-weight: 700;
+                    line-height: 1.1;
+
+                }
+                .small-text{
+                    p{
+                        font-size: 16px;
+                        a{
+                            color: #337ab7;
+                            text-decoration: none;
+
+                            }
+
+
+                        }
+
+                    }
+                }
+
+            }
+
+
+        }
+
+
+
 
 
 
@@ -3620,6 +3766,9 @@
     h2{
         line-height: 1.1;
     }
+}
+.teal {
+    color: #44b5bc;
 }
 
 
@@ -3753,7 +3902,7 @@
                     padding: 40px 20px;
 
                     .cta-banner-child {
-                     
+
 
 
                         .cta-header {

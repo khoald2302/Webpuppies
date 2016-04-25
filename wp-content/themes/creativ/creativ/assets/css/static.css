@@ -7551,15 +7551,17 @@ body .wpb_content_element, body .wpb_button {
     font-size: 16px;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4); }
 
-#cta-better-first #cta-better.cta-banner-wrapper {
-  color: #fff;
-  font-family: 'Bitter', serif;
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4);
-  width: 100%;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover; }
+#cta-better-first {
+  /*-----  Services Design  -----*/ }
+  #cta-better-first #cta-better.cta-banner-wrapper {
+    color: #fff;
+    font-family: 'Bitter', serif;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover; }
   #cta-better-first #cta-better.cta-banner-wrapper .cta-banner-parent {
     display: table;
     margin: 0 auto;
@@ -7586,6 +7588,104 @@ body .wpb_content_element, body .wpb_button {
   #cta-better-first #cta-better.cta-banner-wrapper .cta-banner-parent .cta-banner-child p a:hover {
     color: #fc0 !important;
     text-decoration: underline; }
+
+#banner-services-intro a {
+  color: #337ab7; }
+  #banner-services-intro a:hover {
+    color: #23527c !important;
+    text-decoration: underline !important; }
+  #banner-services-intro a:hover:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+    color: #23527c;
+    text-decoration: underline; }
+  #banner-services-intro .panel-info {
+    border-color: #bce8f1 !important; }
+  #banner-services-intro .panel-info.panel {
+    margin-top: 30px;
+    padding: 0 !important;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    /*Add 22/10/2015 Mixin BACKGROUND GRADIENT FOR COLOR */
+    -webkit-box-shadow: 'box-shadow' 0 1px 1px rgba(0, 0, 0, .05) 5px rgba(0, 0, 0, .4);
+    -khtml-box-shadow: 'box-shadow' 0 1px 1px rgba(0, 0, 0, .05) 5px rgba(0, 0, 0, .4);
+    -moz-box-shadow: 'box-shadow' 0 1px 1px rgba(0, 0, 0, .05) 5px rgba(0, 0, 0, .4);
+    -ms-box-shadow: 'box-shadow' 0 1px 1px rgba(0, 0, 0, .05) 5px rgba(0, 0, 0, .4);
+    -o-box-shadow: 'box-shadow' 0 1px 1px rgba(0, 0, 0, .05) 5px rgba(0, 0, 0, .4);
+    box-shadow: 'box-shadow' 0 1px 1px rgba(0, 0, 0, .05) 5px rgba(0, 0, 0, .4);
+    /*Add 22/10/2015 Mixin BACKGROUND GRADIENT FOR COLOR */
+    /* BOX SIZING */ }
+  #banner-services-intro .panel-info .panel-heading {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1; }
+  #banner-services-intro .panel-info .panel-body {
+    padding: 15px; }
+  #banner-services-intro #services-intro {
+    margin-top: 30px; }
+  #banner-services-intro #services-intro .teal {
+    color: #44b5bc; }
+  #banner-services-intro #services-intro h1 {
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px; }
+  #banner-services-intro #services-intro p {
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 10px; }
+  #banner-services-intro #services-intro p a {
+    color: #337ab7;
+    text-decoration: none; }
+
+#services-info a {
+  color: #337ab7; }
+  #services-info a:hover {
+    color: #23527c !important;
+    text-decoration: underline !important; }
+  #services-info a:hover:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+    color: #23527c;
+    text-decoration: underline; }
+  #services-info p {
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 10px; }
+  #services-info h2 {
+    line-height: 1.1;
+    margin: 0; }
+  #services-info #services-signature {
+    margin: 80px auto 0; }
+  #services-info #services-signature .services-info-header {
+    margin-bottom: 20px; }
+  #services-info #services-signature .services-info-header h2 {
+    font-size: 36px; }
+  #services-info #services-signature .services-info-header p {
+    margin: 10px 0;
+    font-size: 20px; }
+  #services-info #services-signature .important-box {
+    margin-bottom: 30px; }
+  #services-info #services-signature .important-box h3 {
+    font-family: Lato;
+    margin: 20px 0 0;
+    color: #27a7df;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1; }
+  #services-info #services-signature .important-box .small-text p {
+    font-size: 16px; }
+  #services-info #services-signature .important-box .small-text p a {
+    color: #337ab7;
+    text-decoration: none; }
 
 .text-center {
   text-align: center; }
@@ -7615,6 +7715,9 @@ body .wpb_content_element, body .wpb_button {
 
 .title-block h2 {
   line-height: 1.1; }
+
+.teal {
+  color: #44b5bc; }
 
 @media screen and (max-width: 767px) {
   #hero-banner-home-first #hero-banner-home .visible-xs-block {
