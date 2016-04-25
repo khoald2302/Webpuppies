@@ -3596,6 +3596,7 @@
 .cta-btn {
     background: #e66202;
     font-size: 22px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
 }
 
 .btn{
@@ -3603,6 +3604,7 @@
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
+    line-height: 1.42857143;
     color: #fff;
     font-family: 'Bitter', serif;
     white-space: normal;
@@ -3676,11 +3678,105 @@
                 .cta-btn{
                     font-size: 14px !important;
                 }
+            }
+    }
+
+
+    #signature-services{
+        .vc_column-inner{
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .template-zo_fancybox_single--style-3{
+            padding: 20px 10px;
+            height: auto;
+            border-radius: 0;
+            margin-bottom: 0;
+            .zo-fancyboxes-body{
+
+                .fancybox-icon{
+                    width: 120px !important;
+                }
+                h3{
+                    font-size: 25px !important;
+                }
+                .fancybox-content{
+                    p{
+                        font-size: 16px !important;
+                    }
+                }
 
             }
-
-
+        }
     }
+
+    #pic-first{
+      background-color: #cce3e8;
+        background-image: none !important;
+        #pic-grant{
+            height: auto!important;
+            .cta-banner-parent{
+                padding: 0;
+                text-align: center;
+
+                width: 100% !important;
+                .cta-banner-child{
+                    text-align: center;
+                    h2{
+                        font-size: 28px !important;
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 16px!important;
+                        margin: 15px 0;
+                        strong{
+                            font-size: 22px;
+
+                        }
+                    }
+                    a{
+                        font-size: 14px!important;
+                    }
+                }
+            }
+        }
+    }
+
+    #cta-better-first{
+        .container{
+            padding-left: 0!important;
+            padding-right: 0 !important;
+            #cta-better {
+                height: auto;
+                .cta-banner-parent {
+                    width: 100% !important;
+                    padding: 40px 20px;
+
+                    .cta-banner-child {
+                     
+
+
+                        .cta-header {
+                            font-size: 28px !important;
+
+                        }
+                        p {
+                            font-size: 16px !important;
+                        }
+                        .cta-btn {
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -3695,8 +3791,57 @@
             }
         }
     }
-}
 
+
+    #signature-services{
+        width: 750px;
+        margin: 0px auto;
+       .zo-fancyboxes-wraper{
+           height: 450px;
+       .zo-fancyboxes-body{
+               text-align: left;
+           h3{
+               text-align: center;
+           }
+           }
+       }
+    }
+
+
+    #pic-grant{
+        .cta-banner-parent{
+            width: 600px;
+        }
+    }
+
+
+
+    #cta-better-first{
+        #cta-better{
+            .cta-banner-parent{
+                width: 600px !important;
+                .cta-banner-child{
+                    .cta-header{
+                        font-size: 40px !important;
+                    }
+                    .cta-text{ font-size: 18px !important;}
+                    .cta-btn{
+                        font-size: 18px !important;
+                        box-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
+                    }
+                    .btn{
+                        line-height: 1.42857143!important;
+                    }
+                    p{
+
+                    }
+
+                }
+            }
+        }
+    }
+
+}
 
 
 

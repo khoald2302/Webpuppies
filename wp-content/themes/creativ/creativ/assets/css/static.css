@@ -7595,13 +7595,15 @@ body .wpb_content_element, body .wpb_button {
 
 .cta-btn {
   background: #e66202;
-  font-size: 22px; }
+  font-size: 22px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4); }
 
 .btn {
   display: inline-block;
   padding: 10px 30px;
   border: none;
   border-radius: 5px;
+  line-height: 1.42857;
   color: #fff;
   font-family: 'Bitter', serif;
   white-space: normal; }
@@ -7642,7 +7644,59 @@ body .wpb_content_element, body .wpb_button {
     #cta-easy .cta-banner-parent .cta-text {
       font-size: 16px !important; }
     #cta-easy .cta-banner-parent .cta-btn {
-      font-size: 14px !important; } }
+      font-size: 14px !important; }
+
+  #signature-services .vc_column-inner {
+    padding-right: 0;
+    padding-left: 0; }
+    #signature-services .template-zo_fancybox_single--style-3 {
+      padding: 20px 10px;
+      height: auto;
+      border-radius: 0;
+      margin-bottom: 0; }
+    #signature-services .template-zo_fancybox_single--style-3 .zo-fancyboxes-body .fancybox-icon {
+      width: 120px !important; }
+      #signature-services .template-zo_fancybox_single--style-3 .zo-fancyboxes-body h3 {
+        font-size: 25px !important; }
+      #signature-services .template-zo_fancybox_single--style-3 .zo-fancyboxes-body .fancybox-content p {
+        font-size: 16px !important; }
+
+  #pic-first {
+    background-color: #cce3e8;
+    background-image: none !important; }
+    #pic-first #pic-grant {
+      height: auto !important; }
+    #pic-first #pic-grant .cta-banner-parent {
+      padding: 0;
+      text-align: center;
+      width: 100% !important; }
+      #pic-first #pic-grant .cta-banner-parent .cta-banner-child {
+        text-align: center; }
+        #pic-first #pic-grant .cta-banner-parent .cta-banner-child h2 {
+          font-size: 28px !important;
+          text-align: center; }
+        #pic-first #pic-grant .cta-banner-parent .cta-banner-child p {
+          font-size: 16px !important;
+          margin: 15px 0; }
+          #pic-first #pic-grant .cta-banner-parent .cta-banner-child p strong {
+            font-size: 22px; }
+        #pic-first #pic-grant .cta-banner-parent .cta-banner-child a {
+          font-size: 14px !important; }
+
+  #cta-better-first .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+    #cta-better-first .container #cta-better {
+      height: auto; }
+      #cta-better-first .container #cta-better .cta-banner-parent {
+        width: 100% !important;
+        padding: 40px 20px; }
+        #cta-better-first .container #cta-better .cta-banner-parent .cta-banner-child .cta-header {
+          font-size: 28px !important; }
+          #cta-better-first .container #cta-better .cta-banner-parent .cta-banner-child p {
+            font-size: 16px !important; }
+          #cta-better-first .container #cta-better .cta-banner-parent .cta-banner-child .cta-btn {
+            font-size: 14px !important; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #cta-easy .cta-banner-parent {
@@ -7650,7 +7704,32 @@ body .wpb_content_element, body .wpb_button {
     #cta-easy .cta-banner-parent .cta-header {
       font-size: 40px !important; }
     #cta-easy .cta-banner-parent .cta-text, #cta-easy .cta-banner-parent .cta-btn {
-      font-size: 18px !important; } }
+      font-size: 18px !important; }
+
+  #signature-services {
+    width: 750px;
+    margin: 0px auto; }
+    #signature-services .zo-fancyboxes-wraper {
+      height: 450px; }
+    #signature-services .zo-fancyboxes-wraper .zo-fancyboxes-body {
+      text-align: left; }
+      #signature-services .zo-fancyboxes-wraper .zo-fancyboxes-body h3 {
+        text-align: center; }
+
+  #pic-grant .cta-banner-parent {
+    width: 600px; }
+
+  #cta-better-first #cta-better .cta-banner-parent {
+    width: 600px !important; }
+    #cta-better-first #cta-better .cta-banner-parent .cta-banner-child .cta-header {
+      font-size: 40px !important; }
+      #cta-better-first #cta-better .cta-banner-parent .cta-banner-child .cta-text {
+        font-size: 18px !important; }
+      #cta-better-first #cta-better .cta-banner-parent .cta-banner-child .cta-btn {
+        font-size: 18px !important;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4); }
+      #cta-better-first #cta-better .cta-banner-parent .cta-banner-child .btn {
+        line-height: 1.42857 !important; } }
 
 img {
   max-width: 100%; }
