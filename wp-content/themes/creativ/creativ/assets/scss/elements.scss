@@ -958,7 +958,7 @@ $message-red-light : #fff0ec;
                 margin: 20px 0 0 !important;
 
                 a{
-                    color: #337ab7;
+                    color: #e66202;
                     text-decoration: none;
                 }
                 & :hover{
@@ -975,10 +975,31 @@ $message-red-light : #fff0ec;
 /**************** end style for local contact home ********************/
 
 .signature-services{
+
+    padding: 80px 0;
+
+    .wpb_wrapper{
+        margin-left: -15px;
+        margin-right: -15px;
+
+        .wpb_wrapper{
+            margin: 0 ;
+
+            h2{
+
+                margin: 0;
+                text-align: center;
+                line-height: 1.1em;
+                padding: 0 15px;
+                color: inherit;
+            }
+        }
+    }
+
     padding: 80px 0;
     .text-specialise
     {
-        padding: 0 40px;
+
         .wpb_wrapper h2{
             font-size: 30px;
             text-align: center;
@@ -992,8 +1013,8 @@ $message-red-light : #fff0ec;
 /**************Style for services-other home****************/
 
 #services-other{
-    margin: 40px 0 80px;
     text-align: center;
+    margin: 0;
 
     .other-services-box{
         display: inline-block;
@@ -1068,3 +1089,257 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
 
 /* End style for experience worked with  brands*/
 
+/* Style for page Ecommerce
+============================*/
+#hero-banner-services {
+    height: 400px;
+    background: #111e53;
+}
+
+/*e commerce*/
+.content-ecommerce{
+    .panel {
+        margin-top: 30px;
+        padding: 0 !important;
+    }
+}
+
+
+/* Style for page Who we are
+============================*/
+.content-about-us{
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+        .text-center h1{
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+        p{
+            font-size: 18px;
+            line-height: 1.7em;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.text-title{
+    .text-center{
+        padding-right: 0;
+        padding-left: 0;
+
+        h2{
+            text-align: center;
+            font-weight: 500;
+            line-height: 1.1em;
+        }
+    }
+}
+.about-us-detail{
+    .container  {
+        padding-right: 0;
+        padding-left: 0;
+        .vc_column-inner  {
+            margin-left: 0;
+            margin-right: 0;
+
+            .content-bosses{
+                img{
+                    margin-top: 30px;
+                    box-shadow: 5px 10px 0 #99c4d7;
+                    vertical-align: middle;
+
+                }
+
+                .staff-details {
+                    margin: 0 auto;
+                    width: 250px;
+                    text-align: left;
+
+                    h3 {
+                        margin-top: 20px;
+                        margin-bottom: 0;
+                        color: #0e5480;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 1.1em;
+                    }
+                    p {
+                        font-size: 20px;
+                        line-height: 1.7em;
+                        padding-bottom: 10px;
+                    }
+
+                    a{
+                        color: #337ab7;
+                        text-decoration: none;
+                        &:hover{
+                            color: #23527c;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/******************* Style for Banner who we are**********************/
+.banner-who-we-are{
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    #cta-create {
+        background-image: url('../04/cta-banner-create.jpg');
+    }
+    .cta-banner-wrapper {
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: cover;
+        color: #fff;
+        font-family: 'Bitter', serif;
+        text-shadow: 0 2px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
+
+        .cta-banner-parent {
+            display: table;
+            margin: 0 auto;
+            width: 720px;
+            height: 100%;
+
+            .cta-banner-child {
+                display: table-cell;
+                vertical-align: middle;
+
+                .cta-btn, .pic-btn {
+                    box-shadow: 0 1px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
+                    line-height: 1.42857143;
+                }
+            }
+        }
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+/********* Style footer
+============================*/
+
+#footer {
+    padding: 50px 0 20px;
+    background: #404040;
+    color: #ededed;
+
+    img{
+        height: 30px;
+    }
+
+}
+#footer {
+    padding: 50px 0 20px;
+    background: #404040;
+    color: #ededed;
+
+    #footer-left{
+
+        ul{
+            display: inline-block;
+            vertical-align: top;
+            font-size: 16px;
+            &:first-child {
+                margin: 0 50px 30px 0;
+            }
+            &:last-child {
+                font-weight: 300;
+            }
+            >li{
+                padding-bottom: 20px;
+                .fa-pad {
+                    width: 25px;
+                    padding-right: 5px;
+                }
+
+                a{
+                    color: #ededed;
+                    &:hover{
+                        color: #b3b3b3;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+}
+#foot_services {
+    padding-right: 50px;
+    border-right: 1px solid #ccc;
+}
+.footer-btn{
+    margin-top: 10px;
+    a{
+        padding: 10px;
+        border: 1px solid #ededed;
+        border-radius: 5px;
+        &:hover{
+            background-color: #ededed;
+            border-color: #ededed;
+            color: #4d4d4d !important;
+            text-decoration: none;
+        }
+    }
+}
+
+#footer-right {
+    text-align: right;
+
+    .footer-header {
+        margin-top: 0;
+        font-family: 'Bitter', serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+    }
+
+    p{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.7em;
+        padding-bottom: 10px;
+    }
+
+    a{
+        .social-icon {
+            margin-left: 20px;
+            &:hover{
+                color: #b3b3b3;
+            }
+        }
+    }
+}
+#copyright p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.7em;
+    padding-bottom: 10px;
+}
+#terms-privacy, .social-icon {
+    margin-left: 20px;
+}

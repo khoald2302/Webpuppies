@@ -970,3 +970,134 @@
         }
 	}
 }
+
+
+/*Tien responsive for home*/
+/**************************
+===========================*/
+
+@media screen and (max-width: 640px) {
+    .cta-banner-announce .container .vc_row{
+        padding: 40px 0px;
+        .cta-banner-announce-child {
+            margin: 0px auto;
+            padding: 10px 0px;
+            text-align: center;
+
+            .wpb_wrapper .cta-header{
+                font-size: 28px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*responsive local*/
+    .wpb_single_image.wpb_content_element.vc_align_left.cta-banner-announce-child.image-local {
+        width: 129.66%;
+    }
+    .cta-banner-announce.container .vc_row .cta-banner-announce-child .address-local{
+        width: 92.6%;
+        margin-left: -15px;
+    }
+
+    .cta-banner-announce.container .vc_row .vc_column_container .vc_column-inner {
+        margin-left: -15px;
+    }
+    .wpb_raw_code.wpb_content_element.wpb_raw_html.cta-banner-announce-child.address-local {
+        margin-left: 20px;
+        padding-left: 24px;
+
+    }
+    /* responsive local*/
+    .cta-banner-announce .container .vc_row{
+        padding: 40px 0px;
+        width: 600px;
+        .cta-banner-announce-child {
+            margin-left: -15p;
+            padding: 10px 0px;
+
+            .wpb_wrapper .cta-header{
+                font-size: 40px;
+            }
+        }
+    }
+    .cta-banner-announce .container .vc_row{
+        padding: 0px;
+        .cta-banner-announce-child{
+            padding: 10px;
+        }
+    }
+
+    .cta-banner-announce .container .vc_row .cta-banner-announce-child {
+        margin-left: -15px;
+    }
+
+    /*responsive we also specialise*/
+    .signature-services .container {
+        width: 750px;
+    }
+
+    /*******Responsive for Experience brands*******/
+    .content-brand .text-center{
+        width: 750px;
+    }
+
+}
+
+/*local home*/
+@media (min-width: 1024px) and (max-width: 1200px){
+    .cta-banner-announce .container{
+        width: 1024px;
+    }
+    .cta-banner-announce .vc_row{
+        width: 1024px;
+        .vc_column_container > .vc_column-inner{
+            padding: 0px;
+            margin: 10px;
+            .cta-banner-announce-child{
+                padding: 0px;
+            }
+        }
+    }
+}
+@media (min-width: 1280) and (max-width: 1600px){
+    .cta-banner-announce .container{
+        width: 1280;
+    }
+    .cta-banner-announce .vc_row{
+        width: 1280;
+        .vc_column_container > .vc_column-inner{
+            padding: 0px;
+            margin: 10px;
+            .cta-banner-announce-child{
+                padding: 0px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px){
+    .experience-brand-main{
+        .wpb_wrapper  {
+            .container{
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+        }
+    }
+
+    /*responsive experience band*/
+    #established img{
+        margin: 0 0 30px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+
+
