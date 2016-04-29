@@ -160,6 +160,7 @@ img.aligncenter {
     margin-bottom: 1.6em;
 }
 
+
 .wp-caption.alignleft,
 .wp-caption.alignright,
 .wp-caption.aligncenter {
@@ -926,85 +927,106 @@ $message-red-light : #fff0ec;
 /* prettyPhoto styling for small screens */
 
 /****************style for local contact home ********************/
-.cta-banner-announce .vc_row{
-    display: table;
-    margin: 0 auto;
+.content-local-home {
+
+    background-position: bottom center;
+    background-size: cover;
+    .vc_column-inner {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+#announce {
+    margin: 0;
+    height: 100%;
+}
+.cta-banner-wrapper {
     width: 100%;
-    max-width: 1160px !important;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Bitter', serif;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
 
-    .cta-banner-announce-child{
-        margin: 0px auto;
-        padding: 10px;
+    .cta-banner-announce {
+        display: table;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1160px;
 
-        .wpb_wrapper{
-            color: #fff;
-            font-family: 'Bitter', serif;
-            text-shadow: 0 2px 0 rgba(0,0,0,0.6), 0 3px 3px rgba(0,0,0,0.4);
-            line-height: 1.42857143;
+        .cta-banner-announce-child {
+            margin: 0px auto;
+            padding: 10px;
 
-            .cta-header {
-                font-size: 48px;
-                line-height: 1.7em;
-                padding-bottom: 10px;
+            img{
+                border: 2px solid white;
             }
 
             p{
-                font-size: 20px;
                 line-height: 1.7em;
                 padding-bottom: 10px;
+                font-size: 20px;
+
+            }
+            .cta-header {
+                font-size: 48px;
             }
 
             .cta-tel{
                 margin: 20px 0 0 !important;
 
-                a{
+                a:link {
                     color: #e66202;
-                    text-decoration: none;
                 }
-                & :hover{
+                a:hover{
                     color: #fc0;
                     text-decoration: underline;
                 }
-                &:link{
-                    color: #e66202;
-                }
             }
+
+
         }
     }
 }
-/**************** end style for local contact home ********************/
+.
+    /**************** end style for local contact home ********************/
+.vc_column_container > .vc_column-inner {
+    box-sizing: border-box;
+    width: 100%;
+}
 
 .signature-services{
-
     padding: 80px 0;
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
 
-    .wpb_wrapper{
-        margin-left: -15px;
-        margin-right: -15px;
+        .vc_column-inner {
+            padding-left: 0;
+            padding-right: 0;
+            .wpb_wrapper{
+                margin:0;
+                h2{
 
-        .wpb_wrapper{
-            margin: 0 ;
-
-            h2{
-
-                margin: 0;
-                text-align: center;
-                line-height: 1.1em;
-                padding: 0 15px;
-                color: inherit;
+                    margin: 0;
+                    text-align: center;
+                    line-height: 1.1em;
+                    padding: 0 15px;
+                    color: inherit;
+                }
             }
-        }
-    }
 
-    padding: 80px 0;
-    .text-specialise
-    {
 
-        .wpb_wrapper h2{
-            font-size: 30px;
-            text-align: center;
-            padding: 0 15px;
-            margin: 0;
+            .text-specialise
+            {
+                .wpb_wrapper h2{
+                    font-size: 30px;
+                    text-align: center;
+                    padding: 0 15px;
+                    margin: 0;
+                }
+            }
         }
     }
 }
@@ -1014,7 +1036,6 @@ $message-red-light : #fff0ec;
 
 #services-other{
     text-align: center;
-    margin: 0;
 
     .other-services-box{
         display: inline-block;
@@ -1024,8 +1045,11 @@ $message-red-light : #fff0ec;
 
         h3{
             margin: 10px 0 0;
-            line-height: 1.1em;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.1;
             font-family: inherit;
+            color: inherit;
         }
     }
 }
@@ -1059,30 +1083,33 @@ $message-red-light : #fff0ec;
 a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
     line-height: 1.42857143 !important;
 }
+
 /***********End style for button learn more home*************/
 
 /*style for experience worked with  brands******/
 
+.experience-brand-main{
+    padding: 80px 0;
 
-
-.content-brand .container {
-    h2{
-        margin: 0;
-        text-align: center;
-        font-weight: 500;
-        line-height: 1.1;
-        color: inherit;
-    }
-    #established{
-        margin: 40px 0 40px;
-        img{
-            margin: 0 30px 40px;
+    .content-brand .text-center {
+        h2{
+            margin: 0;
+            text-align: center;
+            font-weight: 500;
+            line-height: 1.1;
+            color: inherit;
         }
-    }
-    #growing{
-        margin: 40px 0 0;
-        img{
-            margin: 0 30px 40px;
+        #established{
+            margin: 40px 0 40px;
+            img{
+                margin: 0 30px 40px;
+            }
+        }
+        #growing{
+            margin: 40px 0 0;
+            img{
+                margin: 0 30px 40px;
+            }
         }
     }
 }
@@ -1107,10 +1134,15 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
 
 /* Style for page Who we are
 ============================*/
+.no-margin{
+    margin: 0px ;
+}
+
+
 .content-about-us{
     .container {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0 ;
+        padding-right: 0 ;
         .text-center h1{
             text-align: center;
             margin-top: 30px;
@@ -1127,62 +1159,56 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
 
 .text-title{
     .text-center{
-        padding-right: 0;
-        padding-left: 0;
 
         h2{
             text-align: center;
             font-weight: 500;
             line-height: 1.1em;
+            margin-bottom:  0;
         }
     }
 }
-.about-us-detail{
-    .container  {
-        padding-right: 0;
-        padding-left: 0;
-        .vc_column-inner  {
-            margin-left: 0;
-            margin-right: 0;
+.content-about-us{
 
-            .content-bosses{
-                img{
-                    margin-top: 30px;
-                    box-shadow: 5px 10px 0 #99c4d7;
-                    vertical-align: middle;
+    .content-bosses{
+        img{
+            margin-top: 30px;
+            box-shadow: 5px 10px 0 #99c4d7;
+            vertical-align: middle;
 
-                }
+        }
 
-                .staff-details {
-                    margin: 0 auto;
-                    width: 250px;
-                    text-align: left;
+        .staff-details {
+            margin: 0 auto;
+            width: 250px;
+            text-align: left;
 
-                    h3 {
-                        margin-top: 20px;
-                        margin-bottom: 0;
-                        color: #0e5480;
-                        font-size: 24px;
-                        font-weight: 700;
-                        line-height: 1.1em;
-                    }
-                    p {
-                        font-size: 20px;
-                        line-height: 1.7em;
-                        padding-bottom: 10px;
-                    }
+            h3 {
+                margin-top: 20px;
+                margin-bottom: 0;
+                color: #0e5480;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1.1em;
+            }
 
-                    a{
-                        color: #337ab7;
-                        text-decoration: none;
-                        &:hover{
-                            color: #23527c;
-                            text-decoration: underline;
-                        }
-                    }
+            p {
+                font-size: 20px;
+                line-height: 1.7em;
+                padding-bottom: 10px;
+
+            }
+
+            a{
+                color: #337ab7;
+                text-decoration: none;
+                &:hover{
+                    color: #23527c;
+                    text-decoration: underline;
                 }
             }
         }
+
     }
 }
 /******************* Style for Banner who we are**********************/
@@ -1221,6 +1247,11 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
         }
     }
 }
+.content-about-us .vc_column-inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
 
 .text-center {
     text-align: center;
@@ -1245,6 +1276,7 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
     color: #ededed;
 
     #footer-left{
+        line-height: 1.42857143;
 
         ul{
             display: inline-block;
@@ -1255,6 +1287,8 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
             }
             &:last-child {
                 font-weight: 300;
+                margin-top: 0;
+                margin-bottom: 10px;
             }
             >li{
                 padding-bottom: 20px;
@@ -1305,6 +1339,7 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
 
 #footer-right {
     text-align: right;
+    line-height: 1.42857143;
 
     .footer-header {
         margin-top: 0;
@@ -1333,13 +1368,68 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
         }
     }
 }
-#copyright p {
-    margin-top: 10px;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 1.7em;
-    padding-bottom: 10px;
+#copyright
+{
+    line-height: 1.42857143;
+    p {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.7em;
+        padding-bottom: 10px;
+    }
 }
 #terms-privacy, .social-icon {
     margin-left: 20px;
 }
+#footer hr {
+    height: 1px;
+    background: #ededed;
+}
+
+
+
+/*Why us*/
+
+#why-us-pointers {
+    margin-top: 10px;
+
+    .pointer {
+        margin: 20px 0;
+
+        img{
+            float:  left;
+        }
+
+        h3 {
+            display: table-cell;
+            padding-left: 25px;
+            height: 100px;
+            font-size: 20px;
+            font-weight: 700;
+            vertical-align: middle;
+            line-height:    1.1;
+            font-family:    inherit;
+        }
+    }
+}
+#why-us-info-first{
+    #why-us-info{
+
+        h1{
+            margin-bottom: 20px;
+            line-height:    1.1;
+        }
+        p{
+            font-size:  20px;
+            line-height:    1.7em;
+            padding-bottom:     10px;
+
+            strong .bitter {
+                font-family: 'Bitter', serif;
+            }
+
+        }
+    }
+}
+

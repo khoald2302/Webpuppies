@@ -1,8 +1,8 @@
 @media screen and (max-width: 1366px) {
     #page.zo-vertical-menu {
-            .container {
-                width: 100% !important;
-            }
+        .container {
+            width: 100% !important;
+        }
     }
 }
 @media screen and (max-width: 1199px) {
@@ -21,8 +21,8 @@
 
     }
     .other-services-box {
-    padding-bottom: 40px !important;
-}
+        padding-bottom: 40px !important;
+    }
 }
 @media screen and (min-width: 1200px) {
     .zo_column_special .vc_column-inner > .wpb_wrapper {
@@ -324,6 +324,7 @@
     .vc_col-sm-6.fullwidth {
         width: 100%;
     }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -348,6 +349,7 @@
     }
     .tparrows {
         display: none !important;
+
     }
     #zo-header-top.zo-header-top-style-1 {
         margin-top: 0 ! important;
@@ -568,14 +570,14 @@
                 .timeline-panel{
                     .zo-grid-item {
                         width: 65%;
-                        left: 120px; 
+                        left: 120px;
                     }
                     &:before{
                         left: 0;
                         margin-left: 120px;
                         border-width: 15px 15px 15px 0;
                     }
-                } 
+                }
             }
         }
     }
@@ -592,7 +594,7 @@
                         border-width: 15px 15px 15px 0;
                         left: 0;
                         margin-left: -7px ! important;
-                    } 
+                    }
                 }
                 .date{
                     .tldate {
@@ -621,7 +623,7 @@
                         border-width: 15px 15px 15px 0;
                         left: 0 ! important;
                         margin-left: -7px ! important;
-                    } 
+                    }
                 }
                 .date{
                     .tldate {
@@ -652,8 +654,8 @@
     /*===End Content style*/
 
     .other-services-box {
-    width: 150px !important;
-}
+        width: 150px !important;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -741,9 +743,9 @@
             background: #0D0F0C;
         }
         #zo-header-logo {
-           a {
-               line-height: 20px;
-           }
+            a {
+                line-height: 20px;
+            }
         }
         #zo-header-logo.pull-left {
             text-align: center;
@@ -922,34 +924,34 @@
     }
 }
 @include breakpoint-in(768px,992px){
-	.zo-header-transparent {
+    .zo-header-transparent {
         .menu-right {
             margin-top: 0;
         }
     }
 }
-@include breakpoint-max(992px) {	
-	div#zo-header-navigation {
-		.main-navigation{
-			ul.menu-main-menu {
-				> li {
-					padding: 0;
-					> a {
-						line-height: 40px;
-					}
-				}
-			}
-		}
-	}
+@include breakpoint-max(992px) {
+    div#zo-header-navigation {
+        .main-navigation{
+            ul.menu-main-menu {
+                > li {
+                    padding: 0;
+                    > a {
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+    }
 }
 @include breakpoint-max(992px) {
-	#zo-header {
-		&.zo-header-transparent {
+    #zo-header {
+        &.zo-header-transparent {
             div#zo-header-navigation {
                 background: #282828;
                 ul.menu-main-menu {
                     > li {
-						padding: 0;
+                        padding: 0;
                         &.has_full_width {
                             position: relative;
                             display: inline-block;
@@ -968,7 +970,7 @@
                 }
             }
         }
-	}
+    }
 }
 
 
@@ -989,49 +991,23 @@
             }
         }
     }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-    /*responsive local*/
-    .wpb_single_image.wpb_content_element.vc_align_left.cta-banner-announce-child.image-local {
-        width: 129.66%;
-    }
-    .cta-banner-announce.container .vc_row .cta-banner-announce-child .address-local{
-        width: 92.6%;
-        margin-left: -15px;
-    }
+    .cta-banner-announce {
+        width: 600px !important;
 
-    .cta-banner-announce.container .vc_row .vc_column_container .vc_column-inner {
-        margin-left: -15px;
-    }
-    .wpb_raw_code.wpb_content_element.wpb_raw_html.cta-banner-announce-child.address-local {
-        margin-left: 20px;
-        padding-left: 24px;
+        .cta-banner-announce-child{
 
-    }
-    /* responsive local*/
-    .cta-banner-announce .container .vc_row{
-        padding: 40px 0px;
-        width: 600px;
-        .cta-banner-announce-child {
-            margin-left: -15p;
-            padding: 10px 0px;
-
-            .wpb_wrapper .cta-header{
-                font-size: 40px;
+            img {
+                width: 100%;
+            }
+            .cta-header {
+                font-size: 40px !important;
             }
         }
-    }
-    .cta-banner-announce .container .vc_row{
-        padding: 0px;
-        .cta-banner-announce-child{
-            padding: 10px;
-        }
-    }
-
-    .cta-banner-announce .container .vc_row .cta-banner-announce-child {
-        margin-left: -15px;
     }
 
     /*responsive we also specialise*/
@@ -1043,12 +1019,18 @@
     .content-brand .text-center{
         width: 750px;
     }
+    .cta-banner-parent{
+        width: 600px !important;
+        .cta-btn {
+            font-size: 18px;
+        }
+    }
 
 }
 
 /*local home*/
 @media (min-width: 1024px) and (max-width: 1200px){
-    .cta-banner-announce .container{
+    .container{
         width: 1024px;
     }
     .cta-banner-announce .vc_row{
@@ -1063,11 +1045,11 @@
     }
 }
 @media (min-width: 1280) and (max-width: 1600px){
-    .cta-banner-announce .container{
-        width: 1280;
+    .container{
+        width: 1280px;
     }
     .cta-banner-announce .vc_row{
-        width: 1280;
+        width: 1280px;
         .vc_column_container > .vc_column-inner{
             padding: 0px;
             margin: 10px;
@@ -1079,14 +1061,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 640px){
-    .experience-brand-main{
-        .wpb_wrapper  {
-            .container{
-                padding-left: 0 !important;
-                padding-right: 0 !important;
-            }
-        }
-    }
+
 
     /*responsive experience band*/
     #established img{
@@ -1096,8 +1071,352 @@
 }
 
 @media screen and (max-width: 767px){
+    #foot_services {
+        padding-right: 2px;
+        border-right: none;
+    }
+    #footer-right {
+        text-align: left;
+    }
+    #copyright {
+        margin-top: 30px;
 
+        #terms-privacy{
+            white-space: pre;
+        }
+        #terms-privacy::before {
+            content: '\A';
+        }
+    }
+
+    /*rasponsive for specialoise*/
+    .signature-services{
+        #services-other{
+            img {
+                width: 80px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+        }
+        #service-btn {
+            white-space: pre;
+        }
+        .cta-btn {
+            font-size: 14px;
+        }
+
+    }
+
+    /*responsive lear-more*/
+    .learn-more {
+        .cta-btn {
+            font-size: 14px;
+        }
+    }
+
+    /*Logo page who we are*/
+    #company-logo {
+        width: 200px;
+    }
+
+    /*Who we are*/
+
+    .content-about-us{
+        .text-center{
+            h1{
+                font-size: 30px;
+            }
+        }
+        p{
+            font-size: 16px !important ;
+        }
+    }
+
+    .content-about-us{
+        .vc_column-inner {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+
+            .staff-info {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    /*responsive banner who we are*/
+    .banner-who-we-are .vc_column-inner {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        .cta-banner-wrapper{
+            height: auto !important;
+
+            .cta-banner-parent{
+                width: 100%;
+                padding: 40px 20px;
+
+                .cta-btn{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    /*Responsive for local home*/
+    .cta-banner-wrapper {
+        height: auto !important;
+
+        .cta-banner-announce {
+            width: 100%;
+            padding: 40px 20px;
+
+            .cta-banner-announce-child {
+                text-align: center;
+                img{
+                    width: 100%;
+                }
+                .cta-header {
+                    font-size: 28px;
+                }
+
+            }
+        }
+    }
+
+    /* responsive for web-design*/
+    #hero-banner-services {
+        height: auto;
+
+        .hidden-xs {
+            display: none !important;
+        }
+        .visible-xs-block {
+            display: block !important;
+        }
+    }
+
+    #services-intro {
+        h1 {
+            font-size: 25px !important;
+            font-weight: 500;
+            line-height: 1.1;
+        }
+        p{
+            font-size: 16px !important  ;
+        }
+    }
+
+    #services-info{
+
+        #services-signature{
+
+            .services-info-header{
+
+                h2 {
+                    font-size: 30px;
+                }
+                p{
+                    font-size:  16px;
+                }
+            }
+        }
+    }
+
+    .important-box{
+
+        h3 {
+            font-size: 18px !important    ;
+        }
+        p{
+            font-size:  16px !important ;
+        }
+    }
+    .service-box-inner{
+        height: auto;
+        border-radius: 0;
+        box-shadow: none;
+
+        .service-box-content{
+            p{
+                font-size: 21px !important  ;
+            }
+        }
+        .service-box-summary{
+            .service-box_btn {
+                width: 100% !important  ;
+                margin: 35px auto !important    ;
+                text-align: center !important   ;
+                position: initial !important    ;
+            }
+            .yellow-btn {
+                font-size: 18px !important  ;
+            }
+        }
+    }
+
+    .service-feature {
+        img {
+            width: 120px;
+        }
+
+        h3{
+            line-height: 1.1;
+        }
+    }
+
+    #services-signature .col-sm-4 {
+        padding: 0;
+    }
+
+    .cta-banner-wrapper{
+        height: auto !important;
+
+        .cta-banner-parent{
+            width: 100%;
+
+            .cta-banner-child{
+                .cta-header {
+                    font-size: 28px;
+                }
+                .cta-text {
+                    font-size: 16px !important;
+                }
+            }
+
+        }
+    }
+
+    /*responsive for why us*/
+
+    #why-us-info {
+        h1 {
+            font-size: 30px;
+        }
+        p{
+            font-size:  16px !important;
+        }
+    }
+
+    #why-us-pointers {
+        .pointer {
+            margin: 10px 0;
+
+            img{
+                width:  80px;
+            }
+            h3 {
+                padding-left: 10px;
+                font-size: 16px;
+            }
+        }
+    }
+
+
+
+}
+@media screen and (max-width: 360px){
+    .content-about-us .vc_column-inner{
+        padding-left: 15px !important ;
+        padding-right: 15px !important;
+    }
 }
 
 
+/*****Style footer*******/
+@media screen and (max-width: 1199px){
+    #foot_services {
+        padding-right: 25px;
+    }
+}
+@media screen and (min-width: 768px){
+    .container{
+        width:  750px;
+    }
+    .content-about-us{
+        .container{
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 750px;
+        }
+    }
+    #footer .container{width: 750px; }
+
+    #banner-services-intro.container{ width: 750px;}
+
+    #services-info.container{ width: 750px;}
+
+    #contact-form-wrapper-first .container{ width: 750px; }
+
+    #banner-services-intro .container { width: 750px; }
+
+    #services-info .container{ width: 750px; }
+
+}
+
+@media screen and (max-width: 991px) {
+    /*responsive for features page web-design*/
+    .important-box{
+
+        img {
+            width: 200px;
+        }
+    }
+    #contact-form-wrapper{
+        h2{
+            margin-bottom: 30px !important;
+        }
+    }
+    .cta-banner-wrapper{
+        .cta-header{
+            font-size: 40px;
+        }
+        .cta-text {
+            font-size: 18px !important;
+        }
+    }
+    #contact-form-wrapper-first{
+
+    }
+    #why-us-pointers {
+        .pointer {
+
+
+            img{
+
+            }
+            h3 {
+                height: 80px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 992px){
+    .container{
+        width:  970px;
+    }
+    .content-about-us .container{width: 970px;}
+
+    #footer .container{ width: 970px;}
+
+    #banner-services-intro .container{ width: 970px; }
+
+    #services-info .container { width: 970px; }
+
+    #contact-form-wrapper-first .container{ width: 970px; }
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        width:  1170px;
+    }
+    .content-about-us .container{
+        width: 1170px;
+    }
+    #footer .container{ width: 1170px;}
+
+    #banner-services-intro .container {width: 1170px;}
+    #services-info .container {width: 1170px;}
+    #contact-form-wrapper-first .container{ width: 1170px; }
+
+
+}
 

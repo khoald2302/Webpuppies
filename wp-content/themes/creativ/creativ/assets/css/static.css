@@ -134,7 +134,8 @@
  */
 /*404 Page*/
 /* Footer Scroll Top */
-/*responsive local*/
+/*responsive experience band*/
+/*responsive for features page web-design*/
 /* OPACITY */
 body.admin-bar #zo-header.zo-header-1 {
   margin-top: calc(+ 32px); }
@@ -2689,55 +2690,71 @@ blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
   .pp_pic_holder .pp_content .pp_fade .pp_expand {
     display: none !important; }
 
-.cta-banner-announce .vc_row {
-  display: table;
-  margin: 0 auto;
+.content-local-home {
+  background-position: bottom center;
+  background-size: cover; }
+  .content-local-home .vc_column-inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+#announce {
+  margin: 0;
+  height: 100%; }
+
+.cta-banner-wrapper {
   width: 100%;
-  max-width: 1160px !important;
-  /**************** end style for local contact home ********************/ }
-  .cta-banner-announce .vc_row .cta-banner-announce-child {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Bitter', serif;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4); }
+  .cta-banner-wrapper .cta-banner-announce {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1160px; }
+  .cta-banner-wrapper .cta-banner-announce .cta-banner-announce-child {
     margin: 0px auto;
     padding: 10px; }
-  .cta-banner-announce .vc_row .cta-banner-announce-child .wpb_wrapper {
-    color: #fff;
-    font-family: 'Bitter', serif;
-    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4);
-    line-height: 1.42857; }
-  .cta-banner-announce .vc_row .cta-banner-announce-child .wpb_wrapper .cta-header {
-    font-size: 48px;
+  .cta-banner-wrapper .cta-banner-announce .cta-banner-announce-child img {
+    border: 2px solid white; }
+  .cta-banner-wrapper .cta-banner-announce .cta-banner-announce-child p {
     line-height: 1.7em;
-    padding-bottom: 10px; }
-  .cta-banner-announce .vc_row .cta-banner-announce-child .wpb_wrapper p {
-    font-size: 20px;
-    line-height: 1.7em;
-    padding-bottom: 10px; }
-  .cta-banner-announce .vc_row .cta-banner-announce-child .wpb_wrapper .cta-tel {
+    padding-bottom: 10px;
+    font-size: 20px; }
+  .cta-banner-wrapper .cta-banner-announce .cta-banner-announce-child .cta-header {
+    font-size: 48px; }
+  .cta-banner-wrapper .cta-banner-announce .cta-banner-announce-child .cta-tel {
     margin: 20px 0 0 !important; }
-  .cta-banner-announce .vc_row .cta-banner-announce-child .wpb_wrapper .cta-tel a {
-    color: #e66202;
-    text-decoration: none; }
-  .cta-banner-announce .vc_row .cta-banner-announce-child .wpb_wrapper .cta-tel :hover {
+  .cta-banner-wrapper .cta-banner-announce .cta-banner-announce-child .cta-tel a:link {
+    color: #e66202; }
+  .cta-banner-wrapper .cta-banner-announce .cta-banner-announce-child .cta-tel a:hover {
     color: #fc0;
     text-decoration: underline; }
-  .cta-banner-announce .vc_row .cta-banner-announce-child .wpb_wrapper .cta-tel:link {
-    color: #e66202; }
+
+. .vc_column_container > .vc_column-inner {
+  box-sizing: border-box;
+  width: 100%; }
 
 .signature-services {
   padding: 80px 0;
-  padding: 80px 0;
   /**************Style for services-other home****************/ }
-  .signature-services .wpb_wrapper {
-    margin-left: -15px;
-    margin-right: -15px; }
-  .signature-services .wpb_wrapper .wpb_wrapper {
+  .signature-services .container {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .signature-services .container .vc_column-inner {
+    padding-left: 0;
+    padding-right: 0; }
+  .signature-services .container .vc_column-inner .wpb_wrapper {
     margin: 0; }
-  .signature-services .wpb_wrapper .wpb_wrapper h2 {
+  .signature-services .container .vc_column-inner .wpb_wrapper h2 {
     margin: 0;
     text-align: center;
     line-height: 1.1em;
     padding: 0 15px;
     color: inherit; }
-  .signature-services .text-specialise .wpb_wrapper h2 {
+  .signature-services .container .vc_column-inner .text-specialise .wpb_wrapper h2 {
     font-size: 30px;
     text-align: center;
     padding: 0 15px;
@@ -2745,7 +2762,6 @@ blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
 
 #services-other {
   text-align: center;
-  margin: 0;
   /************** End style for services-other home****************/
   /***********Style for button learn more home*****************/ }
   #services-other .other-services-box {
@@ -2755,8 +2771,11 @@ blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
     vertical-align: top; }
   #services-other .other-services-box h3 {
     margin: 10px 0 0;
-    line-height: 1.1em;
-    font-family: inherit; }
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: inherit;
+    color: inherit; }
 
 .learn-more {
   text-align: center; }
@@ -2781,23 +2800,24 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us {
   /***********End style for button learn more home*************/
   /*style for experience worked with  brands******/ }
 
-.content-brand .container {
+.experience-brand-main {
+  padding: 80px 0;
   /* End style for experience worked with  brands*/
   /* Style for page Ecommerce
 ============================*/ }
-  .content-brand .container h2 {
+  .experience-brand-main .content-brand .text-center h2 {
     margin: 0;
     text-align: center;
     font-weight: 500;
     line-height: 1.1;
     color: inherit; }
-  .content-brand .container #established {
+  .experience-brand-main .content-brand .text-center #established {
     margin: 40px 0 40px; }
-  .content-brand .container #established img {
+  .experience-brand-main .content-brand .text-center #established img {
     margin: 0 30px 40px; }
-  .content-brand .container #growing {
+  .experience-brand-main .content-brand .text-center #growing {
     margin: 40px 0 0; }
-  .content-brand .container #growing img {
+  .experience-brand-main .content-brand .text-center #growing img {
     margin: 0 30px 40px; }
 
 #hero-banner-services {
@@ -2812,6 +2832,9 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us {
     margin-top: 30px;
     padding: 0 !important; }
 
+.no-margin {
+  margin: 0px; }
+
 .content-about-us .container {
   padding-left: 0;
   padding-right: 0; }
@@ -2825,45 +2848,37 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us {
     line-height: 1.7em;
     padding-bottom: 10px; }
 
-.text-title .text-center {
-  padding-right: 0;
-  padding-left: 0; }
-  .text-title .text-center h2 {
-    text-align: center;
-    font-weight: 500;
-    line-height: 1.1em; }
+.text-title .text-center h2 {
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.1em;
+  margin-bottom: 0; }
 
-.about-us-detail {
+.content-about-us {
   /******************* Style for Banner who we are**********************/ }
-  .about-us-detail .container {
-    padding-right: 0;
-    padding-left: 0; }
-  .about-us-detail .container .vc_column-inner {
-    margin-left: 0;
-    margin-right: 0; }
-  .about-us-detail .container .vc_column-inner .content-bosses img {
+  .content-about-us .content-bosses img {
     margin-top: 30px;
     box-shadow: 5px 10px 0 #99c4d7;
     vertical-align: middle; }
-  .about-us-detail .container .vc_column-inner .content-bosses .staff-details {
+  .content-about-us .content-bosses .staff-details {
     margin: 0 auto;
     width: 250px;
     text-align: left; }
-  .about-us-detail .container .vc_column-inner .content-bosses .staff-details h3 {
+  .content-about-us .content-bosses .staff-details h3 {
     margin-top: 20px;
     margin-bottom: 0;
     color: #0e5480;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.1em; }
-  .about-us-detail .container .vc_column-inner .content-bosses .staff-details p {
+  .content-about-us .content-bosses .staff-details p {
     font-size: 20px;
     line-height: 1.7em;
     padding-bottom: 10px; }
-  .about-us-detail .container .vc_column-inner .content-bosses .staff-details a {
+  .content-about-us .content-bosses .staff-details a {
     color: #337ab7;
     text-decoration: none; }
-  .about-us-detail .container .vc_column-inner .content-bosses .staff-details a:hover {
+  .content-about-us .content-bosses .staff-details a:hover {
     color: #23527c;
     text-decoration: underline; }
 
@@ -2894,6 +2909,10 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6), 0 3px 3px rgba(0, 0, 0, 0.4);
     line-height: 1.42857; }
 
+.content-about-us .vc_column-inner {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
 .text-center {
   text-align: center;
   /********* Style footer
@@ -2910,6 +2929,8 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us {
   padding: 50px 0 20px;
   background: #404040;
   color: #ededed; }
+  #footer #footer-left {
+    line-height: 1.42857; }
   #footer #footer-left ul {
     display: inline-block;
     vertical-align: top;
@@ -2917,7 +2938,9 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us {
   #footer #footer-left ul:first-child {
     margin: 0 50px 30px 0; }
   #footer #footer-left ul:last-child {
-    font-weight: 300; }
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 10px; }
   #footer #footer-left ul > li {
     padding-bottom: 20px; }
   #footer #footer-left ul > li .fa-pad {
@@ -2953,7 +2976,8 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us {
     text-decoration: none; }
 
 #footer-right {
-  text-align: right; }
+  text-align: right;
+  line-height: 1.42857; }
   #footer-right .footer-header {
     margin-top: 0;
     font-family: 'Bitter', serif;
@@ -2973,15 +2997,48 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us {
   #footer-right a .social-icon:hover {
     color: #b3b3b3; }
 
-#copyright p {
-  margin-top: 10px;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 1.7em;
-  padding-bottom: 10px; }
+#copyright {
+  line-height: 1.42857; }
+  #copyright p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.7em;
+    padding-bottom: 10px; }
 
 #terms-privacy, .social-icon {
   margin-left: 20px; }
+
+#footer hr {
+  height: 1px;
+  background: #ededed;
+  /*Why us*/ }
+
+#why-us-pointers {
+  margin-top: 10px; }
+  #why-us-pointers .pointer {
+    margin: 20px 0; }
+  #why-us-pointers .pointer img {
+    float: left; }
+  #why-us-pointers .pointer h3 {
+    display: table-cell;
+    padding-left: 25px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    vertical-align: middle;
+    line-height: 1.1;
+    font-family: inherit; }
+
+#why-us-info-first #why-us-info h1 {
+  margin-bottom: 20px;
+  line-height: 1.1; }
+  #why-us-info-first #why-us-info p {
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 10px; }
+  #why-us-info-first #why-us-info p strong .bitter {
+    font-family: 'Bitter', serif; }
 
 @media screen and (max-width: 767px) {
   body div#zo-header.zo-header-2, body.admin-bar div#zo-header.zo-header-2 {
@@ -12640,40 +12697,25 @@ footer .widget_zo_social_widget {
 
 @media (min-width: 768px) and (max-width: 991px) {
   /*local home*/
-    .wpb_single_image.wpb_content_element.vc_align_left.cta-banner-announce-child.image-local {
-      width: 129.66%; }
-    .cta-banner-announce.container .vc_row .cta-banner-announce-child .address-local {
-      width: 92.6%;
-      margin-left: -15px; }
-    .cta-banner-announce.container .vc_row .vc_column_container .vc_column-inner {
-      margin-left: -15px; }
-    .wpb_raw_code.wpb_content_element.wpb_raw_html.cta-banner-announce-child.address-local {
-      margin-left: 20px;
-      padding-left: 24px;
-      /* responsive local*/ }
-    .cta-banner-announce .container .vc_row {
-      padding: 40px 0px;
-      width: 600px; }
-      .cta-banner-announce .container .vc_row .cta-banner-announce-child {
-        margin-left: -15p;
-        padding: 10px 0px; }
-        .cta-banner-announce .container .vc_row .cta-banner-announce-child .wpb_wrapper .cta-header {
-          font-size: 40px; }
-    .cta-banner-announce .container .vc_row {
-      padding: 0px; }
-      .cta-banner-announce .container .vc_row .cta-banner-announce-child {
-        padding: 10px; }
-    .cta-banner-announce .container .vc_row .cta-banner-announce-child {
-      margin-left: -15px;
+    .cta-banner-announce {
+      width: 600px !important;
       /*responsive we also specialise*/ }
+      .cta-banner-announce .cta-banner-announce-child img {
+        width: 100%; }
+        .cta-banner-announce .cta-banner-announce-child .cta-header {
+          font-size: 40px !important; }
     .signature-services .container {
       width: 750px;
       /*******Responsive for Experience brands*******/ }
     .content-brand .text-center {
-      width: 750px; } }
+      width: 750px; }
+    .cta-banner-parent {
+      width: 600px !important; }
+      .cta-banner-parent .cta-btn {
+        font-size: 18px; } }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
-  .cta-banner-announce .container {
+  .container {
     width: 1024px; }
 
   .cta-banner-announce .vc_row {
@@ -12685,11 +12727,11 @@ footer .widget_zo_social_widget {
         padding: 0px; } }
 
 @media (min-width: 1280) and (max-width: 1600px) {
-  .cta-banner-announce .container {
-    width: 1280; }
+  .container {
+    width: 1280px; }
 
   .cta-banner-announce .vc_row {
-    width: 1280; }
+    width: 1280px; }
     .cta-banner-announce .vc_row .vc_column_container > .vc_column-inner {
       padding: 0px;
       margin: 10px; }
@@ -12697,15 +12739,242 @@ footer .widget_zo_social_widget {
         padding: 0px; } }
 
 @media screen and (min-width: 320px) and (max-width: 640px) {
-  .experience-brand-main {
-    /*responsive experience band*/ }
-    .experience-brand-main .wpb_wrapper .container {
-      padding-left: 0 !important;
-      padding-right: 0 !important; }
-
   #established img {
     margin: 0 0 30px;
     width: 250px; } }
+
+@media screen and (max-width: 767px) {
+  #foot_services {
+    padding-right: 2px;
+    border-right: none; }
+
+  #footer-right {
+    text-align: left; }
+
+  #copyright {
+    margin-top: 30px;
+    /*rasponsive for specialoise*/ }
+    #copyright #terms-privacy {
+      white-space: pre; }
+    #copyright #terms-privacy::before {
+      content: '\A'; }
+
+  .signature-services {
+    /*responsive lear-more*/ }
+    .signature-services #services-other img {
+      width: 80px; }
+      .signature-services #services-other h3 {
+        font-size: 16px; }
+    .signature-services #service-btn {
+      white-space: pre; }
+    .signature-services .cta-btn {
+      font-size: 14px; }
+
+  .learn-more {
+    /*Logo page who we are*/ }
+    .learn-more .cta-btn {
+      font-size: 14px; }
+
+  #company-logo {
+    width: 200px;
+    /*Who we are*/ }
+
+  .content-about-us .text-center h1 {
+    font-size: 30px; }
+    .content-about-us p {
+      font-size: 16px !important; }
+
+  .content-about-us {
+    /*responsive banner who we are*/ }
+    .content-about-us .vc_column-inner {
+      padding-left: 15px !important;
+      padding-right: 15px !important; }
+      .content-about-us .vc_column-inner .staff-info {
+        margin-bottom: 0; }
+
+  .banner-who-we-are .vc_column-inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    /*Responsive for local home*/ }
+    .banner-who-we-are .vc_column-inner .cta-banner-wrapper {
+      height: auto !important; }
+      .banner-who-we-are .vc_column-inner .cta-banner-wrapper .cta-banner-parent {
+        width: 100%;
+        padding: 40px 20px; }
+        .banner-who-we-are .vc_column-inner .cta-banner-wrapper .cta-banner-parent .cta-btn {
+          font-size: 14px; }
+
+  .cta-banner-wrapper {
+    height: auto !important;
+    /* responsive for web-design*/ }
+    .cta-banner-wrapper .cta-banner-announce {
+      width: 100%;
+      padding: 40px 20px; }
+      .cta-banner-wrapper .cta-banner-announce .cta-banner-announce-child {
+        text-align: center; }
+        .cta-banner-wrapper .cta-banner-announce .cta-banner-announce-child img {
+          width: 100%; }
+        .cta-banner-wrapper .cta-banner-announce .cta-banner-announce-child .cta-header {
+          font-size: 28px; }
+
+  #hero-banner-services {
+    height: auto; }
+    #hero-banner-services .hidden-xs {
+      display: none !important; }
+    #hero-banner-services .visible-xs-block {
+      display: block !important; }
+
+  #services-intro h1 {
+    font-size: 25px !important;
+    font-weight: 500;
+    line-height: 1.1; }
+    #services-intro p {
+      font-size: 16px !important; }
+
+  #services-info #services-signature .services-info-header h2 {
+    font-size: 30px; }
+    #services-info #services-signature .services-info-header p {
+      font-size: 16px; }
+
+  .important-box h3 {
+    font-size: 18px !important; }
+    .important-box p {
+      font-size: 16px !important; }
+
+  .service-box-inner {
+    height: auto;
+    border-radius: 0;
+    box-shadow: none; }
+    .service-box-inner .service-box-content p {
+      font-size: 21px !important; }
+    .service-box-inner .service-box-summary .service-box_btn {
+      width: 100% !important;
+      margin: 35px auto !important;
+      text-align: center !important;
+      position: initial !important; }
+    .service-box-inner .service-box-summary .yellow-btn {
+      font-size: 18px !important; }
+
+  .service-feature img {
+    width: 120px; }
+    .service-feature h3 {
+      line-height: 1.1; }
+
+  #services-signature .col-sm-4 {
+    padding: 0; }
+
+  .cta-banner-wrapper {
+    height: auto !important;
+    /*responsive for why us*/ }
+    .cta-banner-wrapper .cta-banner-parent {
+      width: 100%; }
+    .cta-banner-wrapper .cta-banner-parent .cta-banner-child .cta-header {
+      font-size: 28px; }
+    .cta-banner-wrapper .cta-banner-parent .cta-banner-child .cta-text {
+      font-size: 16px !important; }
+
+  #why-us-info h1 {
+    font-size: 30px; }
+    #why-us-info p {
+      font-size: 16px !important; }
+
+  #why-us-pointers .pointer {
+    margin: 10px 0; }
+    #why-us-pointers .pointer img {
+      width: 80px; }
+    #why-us-pointers .pointer h3 {
+      padding-left: 10px;
+      font-size: 16px; } }
+
+@media screen and (max-width: 360px) {
+  /*****Style footer*******/
+    .content-about-us .vc_column-inner {
+      padding-left: 15px !important;
+      padding-right: 15px !important; } }
+
+@media screen and (max-width: 1199px) {
+  #foot_services {
+    padding-right: 25px; } }
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px; }
+
+  .content-about-us .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 750px; }
+
+  #footer .container {
+    width: 750px; }
+
+  #banner-services-intro.container {
+    width: 750px; }
+
+  #services-info.container {
+    width: 750px; }
+
+  #contact-form-wrapper-first .container {
+    width: 750px; }
+
+  #banner-services-intro .container {
+    width: 750px; }
+
+  #services-info .container {
+    width: 750px; } }
+
+@media screen and (max-width: 991px) {
+  .important-box img {
+    width: 200px; }
+
+  #contact-form-wrapper h2 {
+    margin-bottom: 30px !important; }
+
+  .cta-banner-wrapper .cta-header {
+    font-size: 40px; }
+    .cta-banner-wrapper .cta-text {
+      font-size: 18px !important; }
+
+  #why-us-pointers .pointer h3 {
+    height: 80px; } }
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px; }
+
+  .content-about-us .container {
+    width: 970px; }
+
+  #footer .container {
+    width: 970px; }
+
+  #banner-services-intro .container {
+    width: 970px; }
+
+  #services-info .container {
+    width: 970px; }
+
+  #contact-form-wrapper-first .container {
+    width: 970px; } }
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px; }
+
+  .content-about-us .container {
+    width: 1170px; }
+
+  #footer .container {
+    width: 1170px; }
+
+  #banner-services-intro .container {
+    width: 1170px; }
+
+  #services-info .container {
+    width: 1170px; }
+
+  #contact-form-wrapper-first .container {
+    width: 1170px; } }
 
 @font-face {
   font-family: "baron_neue_bold";

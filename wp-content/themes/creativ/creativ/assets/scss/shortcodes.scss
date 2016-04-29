@@ -243,7 +243,7 @@
         .zo-progress {
             overflow: hidden;
             background-color: $primary_color;
-            box-shadow: none!important;      
+            box-shadow: none!important;
             height: 38px;
             width: 100%;
             position: relative;
@@ -549,7 +549,7 @@
             }
         }
     }
-}    
+}
 /* ==========================================================================
    [End] 11. Images Carousel
 ========================================================================== */
@@ -916,7 +916,7 @@
     .vc_custom_heading.style-2 {
         display: inline-block;
         background:#282828;
-    } 
+    }
 }
 
 .vc_custom_heading.style-1 {
@@ -951,7 +951,7 @@
 #zo-carousel.template-zo_carousel--testimonial {
     position: relative;
     .owl-next,.owl-prev {
-        @include border-radius(50%); 
+        @include border-radius(50%);
         font-size: 26px;
         &:hover {
             @include background-gradient-color(rgba(23,223,190,1),rgba(21, 218, 192, 1),rgba(13, 200, 203, 1),rgba(6, 180, 215, 1),rgba(4, 175, 218, 1));
@@ -1006,7 +1006,7 @@
         }
         .zo-testimonial-position {
             font-size: 13px;
-            font-style: italic; 
+            font-style: italic;
             margin-left: 10px;
             color: $primary_color;
         }
@@ -1031,7 +1031,7 @@
         margin-top: 20px;
         margin-bottom: 15px;
         h3 {
-            font-size: 20px;  
+            font-size: 20px;
             margin-bottom: 5px;
             line-height: 1.2;
         }
@@ -1097,13 +1097,13 @@
 .zo-sigle-fancybox-style-3 {
     .fancybox-header {
         .zo_circle {
-            @include border-radius(50%);  
+            @include border-radius(50%);
         }
         .zo_square {
             @include border-radius(0px);
         }
         .zo_square_radius {
-            @include border-radius(15px);   
+            @include border-radius(15px);
         }
         .fancybox-icon {
             font-size: 34px;
@@ -1123,15 +1123,15 @@
                 height: 30px;
                 border: 1px solid #ddd;
                 line-height: 27px;
-                @include border-radius(100px); 
+                @include border-radius(100px);
                 background: #fff;
                 font-size: 15px;
             }
             span{
                 font-weight: 400;
                 font-family:'Montserrat' ;
-            } 
-        }   
+            }
+        }
 
         h3 {
             font-size: 18px;
@@ -1170,10 +1170,10 @@
             .zo-pricing-button {
                 .btn-pricing {
                     background: #fff;
-                    color: $primary_color;    
+                    color: $primary_color;
                 }
             }
-        } 
+        }
     }
     .zo-pricing-item  {
         .zo-pricing-inner {
@@ -1181,7 +1181,7 @@
             text-align: center;
             padding: 40px 20px;
             cursor: pointer;
-            @include border-radius(30px); 
+            @include border-radius(30px);
             &:hover {
                 background: $primary_color ! important;
                 color: #fff;
@@ -1192,12 +1192,12 @@
                 .zo-pricing-button {
                     .btn-pricing {
                         background: #fff;
-                        color: $primary_color;    
+                        color: $primary_color;
                     }
                 }
             }
             .zo-pricing-title {
-                text-transform: uppercase; 
+                text-transform: uppercase;
                 font-size: 24px;
                 line-height: 1.2;
                 margin: 0 0 16px;
@@ -1244,7 +1244,7 @@
             }
             .zo-pricing-button {
                 .btn-pricing {
-                    @include border-radius(500px);    
+                    @include border-radius(500px);
                     padding: 5px 22px;
                     border: 2px solid #ddd;
                     font-size: 14px;
@@ -1263,7 +1263,7 @@
     }
 }
 /*===============================[Start]Grid team===================================*/
-.zo-team-layout-1{ 
+.zo-team-layout-1{
     padding-bottom: 60px;
 
     .zo-grid-filter{
@@ -1309,7 +1309,7 @@
                     background: rgba(3, 172, 220, 0.7);
                     opacity: 1;
                     top: 0;
-                }  
+                }
             }
         }
         .zo-team-overlay {
@@ -1347,8 +1347,8 @@
                             margin-right: 5px;
                             border-radius: 100%;
                         }
-                    }  
-                } 
+                    }
+                }
             }
         }
     }
@@ -1363,7 +1363,7 @@
     }
 }
 .zo-team-layout-2, .zo-carousel-team{
-    .zo-grid-item, .zo-carousel-item{  
+    .zo-grid-item, .zo-carousel-item{
         .zo-team-inner{
             position: relative;
             text-align: center;
@@ -1379,17 +1379,17 @@
                     .zo-team-overlay{
 
                         &:before{
-                            bottom: -50%; 
-                            opacity: 1; 
+                            bottom: -50%;
+                            opacity: 1;
                         }
                         &:after{
-                            top: -50%; 
+                            top: -50%;
                             opacity: 1;
                         }
                     }
                     .zo-team-socials{
                         opacity: 1;
-                    }  
+                    }
                 }
                 .zo-team-overlay{
                     &:before{
@@ -1467,7 +1467,7 @@
         padding: 0;
     }
 }
-.zo-team-layout-4{ 
+.zo-team-layout-4{
     padding-bottom: 60px;
     .zo-grid-filter{
         margin: 0 0 59px;
@@ -1524,7 +1524,7 @@
                     background: rgba(3, 172, 220, 0.7);
                     opacity: 1;
                     top: 0;
-                }  
+                }
             }
         }
         .zo-team-overlay {
@@ -1562,8 +1562,8 @@
                             margin-right: 5px;
                             border-radius: 100%;
                         }
-                    }  
-                } 
+                    }
+                }
             }
         }
     }
@@ -1662,16 +1662,16 @@
                     line-height: 21.6px;
                     padding-left: 110px;
                     margin: 0 0 16px;
-                } 
+                }
             }
             .zo_circle {
-                @include border-radius(100%);  
+                @include border-radius(100%);
             }
             .zo_square {
                 @include border-radius(0px);
             }
             .zo_square_radius {
-                @include border-radius(15px);   
+                @include border-radius(15px);
             }
             .fancybox-content {
                 padding-left: 110px;
@@ -1706,7 +1706,7 @@
                     @include transition( all 0.3s ease 0s );
                     width: 100%;
                 }
-                &:after{ 
+                &:after{
                     background: $primary_color;
                     content: "";
                     display: block;
@@ -1755,7 +1755,7 @@
                     margin-top: 7px;
                     font-size: 14px;
                     line-height: 1.4;
-                    padding: 5px 25px;   
+                    padding: 5px 25px;
                     &:hover{
                         background: #282828;
                         border-color: #282828;
@@ -1766,7 +1766,7 @@
                 .zo-portfolio-overlay-inner{
                     opacity: 1;
                 }
-                .zo-portfolio-overlay{ 
+                .zo-portfolio-overlay{
                     &:before{
                         bottom: -50%;
                         opacity: 0.7;
@@ -1869,7 +1869,7 @@
                 .zo_hover_bottom{
                     bottom: 0 !important;
                 }
-            } 
+            }
             .zo-portfolio-overlay{
                 @include background-opacity($primary_color, 0.7);
                 @include transition( all 300ms ease-in-out );
@@ -1880,16 +1880,16 @@
 
             }
             .zo_hover_left {
-                left: -100%;  
+                left: -100%;
 
             }
             .zo_hover_right {
-                right: -100%;  
+                right: -100%;
 
             }
             .zo_hover_top {
-                left:0; 
-                top: -100% !important;  
+                left:0;
+                top: -100% !important;
 
             }
             .zo_hover_bottom{
@@ -2140,7 +2140,7 @@
                     left: 50%;
                     top: 50%;
                     .zo-masonry-title{
-                        border: 4px solid #fff;  
+                        border: 4px solid #fff;
                         display: inline-block;
                         font-size: 30px;
                         font-weight: 700;
@@ -2216,7 +2216,7 @@
                     @include transition( all 0.3s ease 0s );
                     width: 100%;
                 }
-                &:after{ 
+                &:after{
                     @include background-opacity($primary_color,0.7);
                     content: "";
                     display: block;
@@ -2277,14 +2277,14 @@
                 &:hover{
                     .zo-masonry-overlay{
                         &:before{
-                            bottom: -50%; 
-                            opacity: 1; 
-                        }
-                        &:after{
-                            top: -50%; 
+                            bottom: -50%;
                             opacity: 1;
                         }
-                    }  
+                        &:after{
+                            top: -50%;
+                            opacity: 1;
+                        }
+                    }
                     .zo-masonry-overlay-inner{
                         opacity: 1;
                     }
@@ -2440,18 +2440,18 @@
         .left.carousel-control {
             span {
                 &:before {
-                    left: 20px;  
+                    left: 20px;
                 }
-            }  
+            }
 
         }
         .right.carousel-control {
             span {
                 &:before {
-                    right: 20px;  
+                    right: 20px;
                 }
-            }  
-        } 
+            }
+        }
         .carousel-control {
             @include transform( translateY(50%) );
             height: 100%;
@@ -2472,7 +2472,7 @@
                     @include border-radius(50%);
                 }
             }
-        } 
+        }
     }
     .zo-video{
         .wp-video{
@@ -2481,7 +2481,7 @@
     }
     .zo-grid-media {
         position: relative;
-        overflow: hidden; 
+        overflow: hidden;
         text-align: center;
         .zo-blog-overlay{
             &:before {
@@ -2542,8 +2542,8 @@
                     top: -50%;
                 }
             }
-            .zo-blog-overlay-inner { 
-                opacity: 1;  
+            .zo-blog-overlay-inner {
+                opacity: 1;
                 span.zo-post-like,span.zo-comment {
                     color: $primary_color;
                 }
@@ -2585,7 +2585,7 @@
     }
     .zo-blog-classic{
         margin-bottom: 0;
-        position: initial;  
+        position: initial;
     }
     .timeline {
         padding: 0;
@@ -2784,7 +2784,7 @@
             .zo-front{
                 opacity: 0;
 
-            }  
+            }
             .fancybox-header {
                 opacity: 1;
                 top: 50%;
@@ -2886,7 +2886,7 @@
 
 .carousel-about-1{
     .owl-theme .owl-nav [class*="owl-"] {
-        background: #f5f5f5; 
+        background: #f5f5f5;
     }
 }
 /*[start gallery]*/
@@ -2913,7 +2913,7 @@
         h3 {
             margin: 3px 0;
             a{
-                font-size: 24px; 
+                font-size: 24px;
                 color: #fff !important;
                 padding: 0;
                 margin: 3px 0;
@@ -2953,7 +2953,7 @@
             .vc_pagination-trigger{
                 background: $primary_color ! important;
             }
-        } 
+        }
     }
     text-align: center;
     ul.vc_pagination  {
@@ -2961,7 +2961,7 @@
             float: none !important ;
         }
     }
-    .zo-box-text { 
+    .zo-box-text {
         p {
             font-family: Athelas;
             font-style: italic;
