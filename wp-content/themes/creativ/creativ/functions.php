@@ -1078,19 +1078,19 @@ function sunset_posted_footer(){
 	$comments_num = get_comments_number();
 	if( comments_open() ){
 		if( $comments_num == 0 ){
-			$comments = __('No Comments');
+			$comments = __('0');
 		} elseif ( $comments_num > 1 ){
-			$comments= $comments_num . __(' Comments');
+			$comments= $comments_num . __(' ');
 		} else {
-			$comments = __('1 Comment');
+			$comments = __('1 ');
 		}
 		$comments = '<a class="comments-link" href="' . get_comments_link() . '">'. $comments .' <span class="sunset-icon sunset-comment"></span></a>';
 	} else {
 		$comments = __('Comments are closed');
 	}
 
-	return '<div class=" sticky-coment"><i class="fa fa-comments-o" aria-hidden="true"></i>
-'.$comments.'</div>';
+	return '<div class=" sticky-comment"><div class="sticky-comment-wrap"><i class="fa fa-comments-o" aria-hidden="true"></i>
+'.$comments.'</div></div>';
 }
 
 

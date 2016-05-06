@@ -1916,6 +1916,7 @@ blockquote {
 #main{
     #content{
         article{
+            .sticky-coment{}
             .zo-blog-title {
 
                 line-height: 1.1;
@@ -1973,11 +1974,34 @@ blockquote {
                 .zo-blog-image{
                     position: relative;
                 }
-                .sticky-coment{
+                .sticky-comment{
+                    .sticky-comment-wrap{
+                        position: relative;
+                        &:after{
+                            content: '';
+                            position: absolute;
+                            width: 0;
+                            height: 0;
+                            border-style: solid;
+                            border-width: 12.5px 12px 12.5px 0;
+                            border-color: transparent #83b866 transparent;
+
+                            bottom: 0px;
+                            left: -15px;
+                        }
+                    }
                     content: '';
                     position: absolute;
-                    top: 20px;
-                    right: 20px;
+                    top: 10px;
+                    right: 15px;
+                    background-color: #84b663;
+                    color: #fff;
+                    padding: 4px 7px;
+                    a{
+                        margin-left: 4px;
+                    }
+
+
                 }
 
                 .zo-blog-detail{

@@ -1897,11 +1897,28 @@ blockquote {
     max-height: 425px; }
   #primary #content .blog-single-wrap article .zo-blog-image {
     position: relative; }
-  #primary #content .blog-single-wrap article .sticky-coment {
+  #primary #content .blog-single-wrap article .sticky-comment {
     content: '';
     position: absolute;
-    top: 20px;
-    right: 20px; }
+    top: 10px;
+    right: 15px;
+    background-color: #84b663;
+    color: #fff;
+    padding: 4px 7px; }
+  #primary #content .blog-single-wrap article .sticky-comment .sticky-comment-wrap {
+    position: relative; }
+  #primary #content .blog-single-wrap article .sticky-comment .sticky-comment-wrap:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12.5px 12px 12.5px 0;
+    border-color: transparent #83b866 transparent;
+    bottom: 0px;
+    left: -15px; }
+  #primary #content .blog-single-wrap article .sticky-comment a {
+    margin-left: 4px; }
   #primary #content .blog-single-wrap article .zo-blog-detail {
     margin: 30px 0 10px; }
   #primary #content .blog-single-wrap article .zo-blog-detail .zo-blog-date {

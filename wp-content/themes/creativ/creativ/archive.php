@@ -34,7 +34,7 @@ get_header(); ?>
                                         <?php
                                             $args=array(
                                                 'post_type'    =>'post',
-                                                'orderby'    => 'rand',
+                                                'orderby'    => 'desc',
                                                 'numberposts' => 2,
                                                 'showposts'=>2,
                                                 'orderby' => 'date',
