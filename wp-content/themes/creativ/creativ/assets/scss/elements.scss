@@ -1050,6 +1050,7 @@ $message-red-light : #fff0ec;
             line-height: 1.1;
             font-family: inherit;
             color: inherit;
+            text-align: center;
         }
     }
 }
@@ -1393,7 +1394,6 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
 
 #why-us-pointers {
     margin-top: 10px;
-
     .pointer {
         margin: 20px 0;
 
@@ -1431,5 +1431,100 @@ a.btn.cta-btn.cta-no-shadow.ua-cta-why-us{
 
         }
     }
+}
+
+/*style for home signature services*/
+#signature-services{
+    .zo-fancybox-item{
+        .fancybox-header h3{
+            text-align: center;
+        }
+        .fancybox-content p{
+            margin: 0;
+            text-align: left;
+        }
+    }
+}
+#pic-first {
+    .vc_column_container > .vc_column-inner{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+#signature-services .title-block h2 {
+    padding: 0 15px;
+}
+
+/*contact form*/
+.form-group {
+    margin-bottom: 15px;
+}
+/*style for why-us*/
+#hero-banner-why-us-first{
+    .vc_column_container > .vc_column-inner {
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+}
+
+#dfy-first #dfy-divider {
+    margin: 30px auto 20px;
+}
+/* style for why-us*/
+#cta-services-first .vc_column_container > .vc_column-inner{
+    padding-left: 0;
+    padding-right: 0;
+}
+#statistics-first #statistics .row .stat-circle .stat-circle-inner h2{
+    line-height: 1.1;
+}
+#statistics p {
+    margin: 0;
+}
+/*#statistics-first #statistics .row h3 {margin-top: 0 !important; }*/
+.testimonial-text-inner {
+    padding-left: 20px;
+    margin-top: 40px !important;
+}
+#cta-make-first{
+    .vc_column_container > .vc_column-inner {
+        padding-left: 0;
+        padding-right: 0;
+        #cta-make .cta-header{ margin-top: 10px; }
+    }
+}
+.service-feature h3{ line-height: 1.1; }
+/*contact-form*/
+#contact-form-inner-first{
+    .wpcf7-form{
+        hr {
+            margin-top: 30px ;
+            line-height: 1.42857143;
+        }
+        p{
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+}
+#contact-form-inner-first.contact-us-form #contact-form-inner{
+    #form-submit-button.yellow-btn {
+        color: #fff !important;
+    }
+}
+
+/*logo*/
+#zo-header{
+    #zo-header-logo{
+        margin-top: 5px;
+    }
+}
+#zo-header.zo-main-header .menu-main-menu > li > a i {
+    color: #fff;
+}
+#zo-header-navigation .main-navigation ul.menu-main-menu > li > a{
+    color: #fff;
 }
 
