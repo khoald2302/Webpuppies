@@ -660,8 +660,8 @@ function zo_paging_nav($query = null) {
 			'current'  => $paged,
 			'mid_size' => 1,
 			'add_args' => array_map( 'urlencode', $query_args ),
-			'prev_text' => __( '<i class="fa fa-angle-double-left"></i>', 'creativ' ),
-			'next_text' => __( '<i class="fa fa-angle-double-right"></i>', 'creativ' ),
+			'prev_text' => __( '<i class="fa fa-angle-left"></i> Prev', 'creativ' ),
+			'next_text' => __( 'Next <i class="fa fa-angle-right"></i>', 'creativ' ),
 	) );
 
 	if ( $links ) :
@@ -1056,3 +1056,41 @@ function zo_get_images_style($size= "full"){
             return get_the_post_thumbnail(get_the_ID(),'full');
     }
 }
+
+  ;
+
+
+function get_excerpt(){
+	$permalink =  get_permalink($post->ID);
+	$excerpt = get_the_content();
+	$excerpt = preg_replace(" (\[.*?\])",'',$excerpt);
+	$excerpt = strip_shortcodes($excerpt);
+	$excerpt = strip_tags($excerpt);
+	$excerpt = substr($excerpt, 0, 152);
+	$excerpt = substr($excerpt, 0, strripos($excerpt, " "));
+	$excerpt = trim(preg_replace( '/\s+/', ' ', $excerpt));
+	$excerpt = $excerpt.'... <a href="'.$permalink.'">Read More</a>';
+	return $excerpt;
+}
+
+function sunset_posted_footer(){
+
+	$comments_num = get_comments_number();
+	if( comments_open() ){
+		if( $comments_num == 0 ){
+			$comments = __('No Comments');
+		} elseif ( $comments_num > 1 ){
+			$comments= $comments_num . __(' Comments');
+		} else {
+			$comments = __('1 Comment');
+		}
+		$comments = '<a class="comments-link" href="' . get_comments_link() . '">'. $comments .' <span class="sunset-icon sunset-comment"></span></a>';
+	} else {
+		$comments = __('Comments are closed');
+	}
+
+	return '<div class=" sticky-coment"><i class="fa fa-comments-o" aria-hidden="true"></i>
+'.$comments.'</div>';
+}
+
+

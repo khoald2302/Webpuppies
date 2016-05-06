@@ -9,8 +9,10 @@
  */
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('post-teaser'); ?>>
-    <div class="zo-blog-category"><?php the_category();?> | <?php the_date(); ?></div>
+<!--    <div class="zo-blog-category">--><?php //the_category();?><!-- | --><?php //the_date(); ?><!--</div>-->
      <h2 class="zo-blog-title"><?php the_title(); ?></h2>
+        <div class="zo-blog-date"> <?php the_date(); ?></div>
+
     <?php if (has_post_thumbnail()) : ?>
         <div class="zo-blog-image">
             <a title="<?php the_title(); ?>" href="<?php the_permalink() ?>" rel=""><?php the_post_thumbnail('full'); ?></a>

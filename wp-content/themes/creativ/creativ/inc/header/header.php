@@ -72,11 +72,11 @@ if(!empty($zo_meta->_zo_header_color)){
 ?>">
     <div class="container">
         <div class="row">
-            <div id="zo-header-logo" class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div id="zo-header-logo" class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                 <a href="<?php echo esc_url(home_url('/')); ?>"><img alt="" src="<?php echo esc_url(zo_page_header_logo()); ?>"></a>
             </div>
 
-            <div id="zo-header-navigation" class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            <div id="zo-header-navigation" class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
 
                 <nav id="site-navigation" class="main-navigation">
                     <?php
